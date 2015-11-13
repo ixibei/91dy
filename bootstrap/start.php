@@ -30,6 +30,7 @@ $env = $app->detectEnvironment(array(
 
 	'local' => array('your-machine-name'),
 	'PC201404211802' => array('PC201404211802'),
+	'ADOGW-20150721N' => array('ADOGW-20150721N'),
 
 ));
 
