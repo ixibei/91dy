@@ -42,6 +42,17 @@
          <span class="field"><input type="text"  value="{{ $data['detail']->sort }}"  name="sort" class="smallinput"></span>
     </p>   
     <p>
+         <label>导演</label>
+         <span class="field">
+         <select name="director_id" id="selection">
+         	<option value="0">--请选择--</option>
+         @foreach($data['director'] as $val)
+            <option value="{{$val->id}}" @if($data['detail']['director_id'] == $val->id) selected @endif)>{{$val->name}}</option>
+         @endforeach
+        </select>
+         </span>
+    </p>     
+    <p>
          <label>播放地址</label>
          <span class="field">
          	<input type="text"  name="url" class="smallinput" value="{{ $data['detail']->url }}">

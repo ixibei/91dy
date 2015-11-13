@@ -17,6 +17,7 @@ class Admin_MovieController extends Admin_BaseController {
 
 	public function getEdit($id){
 		$data['type'] = Type::all();
+		$data['director'] = Person::where('is_director','=','1')->orderBy('sort','desc')->get();
 		$data['detail'] = Movie::where('id',$id)->first();
 		return $this->_cacheView('admin.movie.edit',$data);
 	}
@@ -39,6 +40,7 @@ class Admin_MovieController extends Admin_BaseController {
 
 	public function getAdd(){
 		$data['type'] = Type::all();
+		$data['director'] = Person::where('is_director','=','1')->orderBy('sort','desc')->get();
 		return $this->_cacheView('admin.movie.add',$data);
 	}
 
