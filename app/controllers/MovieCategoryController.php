@@ -19,7 +19,6 @@ class MovieCategoryController extends BaseController {
             $data['catInfo'] = MovieCategory::where('url','=',$url)->firstOrFail()->toArray();
             $data['count'] = MovieCategoryList::where('category_id','=',$data['catInfo']['id'])->count();
             $data['data'] = MovieCategoryList::getMovie($data['catInfo']['id'],$country,$year,$mingxing,$currentPage);//多重条件查询
-            
         }
         return $this->_cacheView($view,$data);
     }
