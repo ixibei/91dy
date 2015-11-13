@@ -7,7 +7,7 @@ class MovieCategoryList extends Eloquent {
 		'password'=>'required|alpha_num|between:6,12|confirmed',
 	);*/
 
-	public $timestamps  = false;//ä¸é?‚ç”¨create_at å’? update_atä¸¤ä¸ªå­—æ®µ
+	public $timestamps  = false;//æ¶“å¶‰ï¿½å‚œæ•¤create_at éœï¿½ update_atæ¶“ã‚„é‡œç€›æ¥î†Œ
 	public $fileable = array('movie_id','category_id');
 	public $num = 20;
 	protected $table = 'm_movie_category_list';
@@ -25,12 +25,12 @@ class MovieCategoryList extends Eloquent {
 	}
 
 	/**
-	 * @param $category_id µçÓ°µÄ·ÖÀà
-	 * @param $country µçÓ°¹ú¼Ò
-	 * @param $year µçÓ°µÄÄê·Ý
-	 * @param $mingxing µçÓ°ËùÊôÃ÷ÐÇ
-	 * @param $orderBy °´ÕÕÊ²Ã´ÅÅÐò 1 µã»÷Á¿ | 2 ÆÀ·ÖÅÅÐò | 3 ×îÐÂÊ±¼äÅÅÐò
-	 * @param $currentPage µ±Ç°µÄÒ³Êý
+	 * @param $category_id ç”µå½±çš„åˆ†ç±»
+	 * @param $country ç”µå½±å›½å®¶
+	 * @param $year ç”µå½±çš„å¹´ä»½
+	 * @param $mingxing ç”µå½±æ‰€å±žæ˜Žæ˜Ÿ
+	 * @param $orderBy æŒ‰ç…§ä»€ä¹ˆæŽ’åº 1 ç‚¹å‡»é‡ | 2 è¯„åˆ†æŽ’åº | 3 æœ€æ–°æ—¶é—´æŽ’åº
+	 * @param $currentPage å½“å‰çš„é¡µæ•°
 	 * @return mixed
 	 */
 	public static function getMovie($category_id,$country,$year,$mingxing,$orderBy,$currentPage){
@@ -42,7 +42,11 @@ class MovieCategoryList extends Eloquent {
 		$leftJoin = 'left join m_movie as M on L.movie_id=M.id left join m_person as P on P.id=M.director_id';
 		$orderBy = 'order by '.$orderBy.' desc';
 		if($country) $where .= " and M.country_id=$country";
-		if($year) $where .= ' and M.release_time>='.strtotime($year);
+		if($year){
+			$startYear = $year.'-1-1';
+			$endYear = ($year+1).'-1-1';
+			$where .= ' and M.release_time>='.strtotime($startYear) .' and M.release_time <'.strtotime($endYear);
+		}
 		if($mingxing){
 			$where .= ' and MP.person_id=$mingxing';
 			$leftJoin .= ' left join m_movie_person as MP on MP.movie_id=L.movie_id';
