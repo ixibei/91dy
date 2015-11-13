@@ -7,8 +7,9 @@ class MovieCategoryList extends Eloquent {
 		'password'=>'required|alpha_num|between:6,12|confirmed',
 	);*/
 
-	public $timestamps  = false;//²»ÊÊÓÃcreate_at ºÍ update_atÁ½¸ö×Ö¶Î
+	public $timestamps  = false;//ä¸é€‚ç”¨create_at å’Œ update_atä¸¤ä¸ªå­—æ®µ
 	public $fileable = array('movie_id','category_id');
+	public $num = 20;
 	protected $table = 'm_movie_category_list';
 
 
@@ -23,13 +24,24 @@ class MovieCategoryList extends Eloquent {
 		return $return;
 	}
 
-	public static function getMovie($category_id,$country,$year,$mingxing){
+	public static function getMovie($category_id,$country,$year,$mingxing,$currentPage){
+		$num = 20;
+		$start = ($currentPage-1)*$num;
+		$field = 'M.name,M.release_time,M.id';
 		$where = 'L.category_id='.$category_id;
+		$leftJoin = 'left join m_movie as M on L.movie_id=M.id';
 		if($country) $where .= " and M.country_id=$country";
 		if($year) $where .= ' and M.release_time>='.strtotime($year);
 		if($mingxing){
-			$where .=
+			$where .= ' and MP.person_id=$mingxing';
+			$leftJoin .= ' left join m_movie_person as MP on MP.movie_id=L.movie_id';
 		}
-		$sql = "select * from m_movie_category_list as L left join m_movie as M on L.movie_id=M.id  ";
+		$sql = "select count(*) as count from m_movie_category_list as L $leftJoin where $where";
+		$count = DB::select($sql);
+		$data['count'] = $count[0]->count;
+		$sql = "select $field from m_movie_category_list as L $leftJoin where $where order by release_time asc limit $start,$num ";
+		$data['data'] = DB::select($sql);
+		return $data;
 	}
+
 }

@@ -2,11 +2,11 @@
 
 class BaseController extends Controller {
 
-    public $isCache = false;//ÊÇ·ñ´ò¿ª»º´æ
-    public $action = '';//µ±Ç°actionÃû³Æ
-    public $controller = '';//µ±Ç°controller
-    public $domain = 'http://www.movie.com/';//ÓòÃû
-    protected $prefix = 'qls_pc_v_';//»º´æ¼üÃûÇ°×º
+    public $isCache = false;//æ˜¯å¦æ‰“å¼€ç¼“å­˜
+    public $action = '';//å½“å‰actionåç§°
+    public $controller = '';//å½“å‰controller
+    public $domain = 'http://www.movie.com/';//åŸŸå
+    protected $prefix = 'qls_pc_v_';//ç¼“å­˜é”®åå‰ç¼€
     protected 	$twentySixLetter = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','S','Y','Z');
 
     public function __construct(){
@@ -14,10 +14,10 @@ class BaseController extends Controller {
     }
 
     /**
-     * @param $view String Ä£°åÎÄ¼þ
-     * @param array $data array Êý¾Ý
-     * @param $extraData int|string ¿ÉÄÜ¶îÍâÔö¼ÓµÄ¼üÃû²¹³ä
-     * @param $isCache bool ÊÇ·ñ³ÌÐòÇ¿ÖÆ¹Ø±Õ»º´æ£¬²»Ê¹ÓÃ»º´æÕâ¸öview
+     * @param $view String æ¨¡æ¿æ–‡ä»¶
+     * @param array $data array æ•°æ®
+     * @param $extraData int|string å¯èƒ½é¢å¤–å¢žåŠ çš„é”®åè¡¥å……
+     * @param $isCache bool æ˜¯å¦ç¨‹åºå¼ºåˆ¶å…³é—­ç¼“å­˜ï¼Œä¸ä½¿ç”¨ç¼“å­˜è¿™ä¸ªview
      * @return mixed
      */
     protected function _cacheView($view,&$data = array(),$extraData = '',$isCache = true){
@@ -38,7 +38,7 @@ class BaseController extends Controller {
     }
 
     /**
-     * ½âÎö»º´ækey ¶ÔÓ¦µ½pcµÄ
+     * è§£æžç¼“å­˜key å¯¹åº”åˆ°pcçš„
      * @param $key
      * @return string
      */
@@ -51,4 +51,44 @@ class BaseController extends Controller {
         $key = $this->_parseProfix($key);
         return Rds::exists($key) ? Rds::get($key) : false;
     }
+
+    /**
+     * èŽ·å–åˆ†é¡µ
+     * @param $count int æ€»æ¡æ•°
+     * @param $currentPage å½“å‰é¡µæ•°
+     * @param string $index ç½‘ç«™urlå‰ç¼€
+     * @param int $num åˆ†é¡µæ•°é‡
+     * @param string $prefix åˆ†é¡µå‰ç¼€
+     * @param string $houzui åˆ†é¡µåŽç¼€
+     * @return string
+     */
+    public static function getPages($count,$currentPage,$index='',$num = 20,$prefix = '',$houzui = '.html'){
+        $totalPage = ceil($count/$num);
+        $upPage = $downPage = $pages = $hover = '';//ä¸Šä¸€é¡µ ä¸‹ä¸€é¡µ
+        $start = $currentPage > $totalPage-4 ? $currentPage-8+($totalPage-$currentPage) : $currentPage-4;//å¼€å§‹é¡µ
+        $end = $currentPage < 5 ? $currentPage+8-($currentPage-1) : $currentPage+4;//ç»“æŸé¡µ
+        if($start < 1) $start = 1;
+        if($end > $totalPage) $end = $totalPage;
+        if($currentPage == 1) $upPage = 1;
+        else $upPage = $currentPage-1;
+
+        if($currentPage == $totalPage) $downPage = $totalPage;
+        else	$downPage = $currentPage+1;
+
+        for($i=$start; $i<=$end; $i++){
+            if($i == $currentPage) $hover = 'class="active"';
+            $pages .= '<a target="_self" '.$hover.' href="/'.$index.'/'.$prefix.$i.$houzui.'" title="ç¬¬'.$i.'é¡µ">'.$i.'</a>'."\r\n";
+            $hover = '';
+        }
+        $html = '<div class="j31turnPage">
+					<span>åˆ†é¡µï¼š <i>'.$currentPage.'/'.$totalPage.'</i>é¡µ</span>
+		 			<a target="_self" href="/'.$index.'/'.$prefix.'1.'.$houzui.'" class="j31Prev">é¦–é¡µ</a>
+		 			<a target="_self" href="/'.$index.'/'.$prefix.$upPage.$houzui.'" class="j31Prev">ä¸Šä¸€é¡µ</a>
+		 			'.$pages.'
+		 			<a target="_self" href="/'.$index.'/'.$prefix.$downPage.$houzui.'" class="j31Next">ä¸‹ä¸€é¡µ</a>
+		 			<a target="_self" href="/'.$index.'/'.$prefix.$totalPage.$houzui.'" class="j31Next">å°¾é¡µ</a>
+		</div>';
+        return $html;
+    }
+
 }

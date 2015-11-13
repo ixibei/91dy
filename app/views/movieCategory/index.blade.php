@@ -11,7 +11,7 @@
             <span class="type">电影筛选</span>
             <div class="selected">
                 <span class="t">您已选择：</span>
-                <span class="c">{{ $catInfo['name'] }}<a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2]] ) }}" class="close">×</a></span>
+                <span class="c">{{ $catInfo['name'] }}<a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2],$param[3]] ) }}" class="close">×</a></span>
                 
                 <span class="n">共<em>{{ $count }}</em>部</span>
             </div>
@@ -22,37 +22,37 @@
                 <dt>按类型</dt>
                 <dd>
                 	<span class="c "><a href="{{ URL::route('movieCategory', [$uri] ) }}">全部</a></span>
-                	<span class="c @if($uri == 'news')on@endif"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2]] ) }}">最新</a></span>
+                	<span class="c @if($uri == 'news')on@endif"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2],$param[3]] ) }}">最新</a></span>
                     @foreach($catList as $key=>$val)
-                    <span class="c @if($val->url == $catInfo['url'])on@endif"><a href="{{ URL::route('movieCategorySearch', [$val->url,$param[0],$param[1],$param[2]] ) }}">{{ $val->name }}</a></span>
+                    <span class="c @if($val->url == $catInfo['url'])on@endif"><a href="{{ URL::route('movieCategorySearch', [$val->url,$param[0],$param[1],$param[2],$param[3]] ) }}">{{ $val->name }}</a></span>
                     @endforeach
                 </dd>
             </dl>
             <dl class="cf">
                 <dt>按地区</dt>
                 <dd>
- 	                <span class="c on"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2]] ) }}">全部</a></span>
+ 	                <span class="c on"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2],$param[3]] ) }}">全部</a></span>
                    	@foreach($country as $key=>$val)
-    	            <span class="c "><a href="{{ URL::route('movieCategorySearch', [$uri,$val->id,$param[1],$param[2]] ) }}">{{ $val->name }}</a></span>
+    	            <span class="c "><a href="{{ URL::route('movieCategorySearch', [$uri,$val->id,$param[1],$param[2],$param[3]] ) }}">{{ $val->name }}</a></span>
                     @endforeach
                 </dd>
             </dl>
             <dl class="cf">
                 <dt>按年份</dt>
                 <dd>
-                    <span class="c on"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2]] ) }}">全部</a></span>
+                    <span class="c on"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2],$param[3]] ) }}">全部</a></span>
                     <?php $arr = [2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000];?>
 					@foreach($arr as $val)
-                    <span class="c "><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$val,$param[2]] ) }}">{{ $val }}</a></span>
+                    <span class="c "><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$val,$param[2],$param[3]] ) }}">{{ $val }}</a></span>
                     @endforeach
                 </dd>
             </dl>
             <dl class="star-list cf">
                 <dt>按明星</dt>
                 <dd>
-                <span class="c on"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2]] ) }}">全部</a></span>
+                <span class="c on"><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$param[2],$param[3]] ) }}">全部</a></span>
                     @foreach($mingxing as $key=>$val)
-                    <span class="c "><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$val->id] ) }}">{{ $val->name }}</a></span>
+                    <span class="c "><a href="{{ URL::route('movieCategorySearch', [$uri,$param[0],$param[1],$val->id,$param[3]] ) }}">{{ $val->name }}</a></span>
                     @endforeach                
                 </dd>
             </dl>
