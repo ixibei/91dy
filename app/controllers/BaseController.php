@@ -17,11 +17,12 @@ class BaseController extends Controller {
      * @param $view String 模板文件
      * @param array $data array 数据
      * @param $extraData int|string 可能额外增加的键名补充
-     * @param $seo array seo优化信息
+     * @param $isCache bool 是否程序强制关闭缓存，不使用缓存这个view
      * @return mixed
      */
-    protected function _cacheView($view,&$data = array(),$extraData = ''){
-        $data['uri'] = substr($_SERVER['REQUEST_URI'],strrpos($_SERVER['REQUEST_URI'],'/')+1);
+    protected function _cacheView($view,&$data = array(),$extraData = '',$isCache = true){
+        $uri = strpos($_SERVER['REQUEST_URI'],'_') ? substr($_SERVER['REQUEST_URI'],0,strrpos($_SERVER['REQUEST_URI'],'/')) : $_SERVER['REQUEST_URI'];
+        $data['uri'] = substr($uri,strrpos($uri,'/')+1);
         $views = Response::view($view,$data);
         $key = $this->_parseProfix($view.$extraData);
         Config::get('redis.isCacheView') ? Rds::set($key,substr($views,90),Config::get('redis.expire'),'s') : '';

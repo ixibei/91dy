@@ -22,4 +22,14 @@ class MovieCategoryList extends Eloquent {
 		}
 		return $return;
 	}
+
+	public static function getMovie($category_id,$country,$year,$mingxing){
+		$where = 'L.category_id='.$category_id;
+		if($country) $where .= " and M.country_id=$country";
+		if($year) $where .= ' and M.release_time>='.strtotime($year);
+		if($mingxing){
+			$where .=
+		}
+		$sql = "select * from m_movie_category_list as L left join m_movie as M on L.movie_id=M.id  ";
+	}
 }

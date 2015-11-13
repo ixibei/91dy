@@ -44,7 +44,7 @@
   <div id="nav">
     <ul class="nav_list">
       <li @if(!$uri)class="nav_current"@endif><a href="/" target="_blank">首页</a></li>
-      <li @if($uri == 'news')class="nav_current"@endif><a href="{{ URL::route('movieCategoryNews') }}" target="_blank">最新</a></li>
+      <li @if($uri == 'news')class="nav_current"@endif><a href="{{ URL::route('movieCategory',['news']) }}" target="_blank">最新</a></li>
       @foreach(MovieCategory::where('status','=','1')->orderBy('sort','desc')->orderBy('id','desc')->take(5)->get() as $val)
       <li @if($uri == $val->url)class="nav_current"@endif><a href="{{ URL::route('movieCategory', [$val->url] ) }}" target="_blank">{{ $val->name }}</a></li>
       @endforeach
