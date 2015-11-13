@@ -29,7 +29,7 @@ $app->redirectIfTrailingSlash();
 $env = $app->detectEnvironment(array(
 
 	'local' => array('your-machine-name'),
-	'ADOGW-20150721N' => array('ADOGW-20150721N'),
+	'PC201404211802' => array('PC201404211802'),
 
 ));
 
