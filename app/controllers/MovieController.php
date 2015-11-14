@@ -19,4 +19,8 @@ class MovieController extends BaseController {
         //$data['hotMovie'] = Movie::where('')
         return $this->_cacheView($view,$data);
     }
+
+    public function play($id){
+
+    }
 }

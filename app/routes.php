@@ -12,8 +12,13 @@ Route::group(['domain'=>'www.'.$domain,'prefix'=>'','before'=>'website'],functio
 	Route::any('/category/{url}', array('uses' => 'MovieCategoryController@index','as'=>'movieCategory'));
 	Route::any('/category/{url}/{country}_{year}_{mingxing}_{orderBy}_{currentPage}', array('uses' => 'MovieCategoryController@index','as'=>'movieCategorySearch'));
 
-	Route::any('/movie/{id}.html', array('uses' => 'MovieController@detail','as'=>'movieDetail'));
+	Route::any('/movie/{id}.html', array('uses' => 'MovieController@detail','as'=>'movieDetail'));//电影详情地址
+	Route::any('/play/{id}.html', array('uses' => 'MovieController@play','as'=>'moviePlay'));//播放地址
+
 	Route::any('/mingxing/{id}.html', array('uses' => 'PersonController@detail','as'=>'personDetail'));
+
+	Route::any('/article/{id}.html', array('uses' => 'ArticleController@detail','as'=>'articleDetail'));
+	Route::any('/article/', array('uses' => 'ArticleController@index','as'=>'article'));
 
 });
 
