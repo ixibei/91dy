@@ -24,6 +24,8 @@ class Admin_PersonController extends Admin_BaseController {
 
 	public function postEdit(){
 		$data = Input::all();
+		$data['status'] = isset($data['status']) ? $data['status'] : 0;
+		$data['is_director'] = isset($data['is_director']) ? $data['is_director'] : 0;
 		$data['age'] = strtotime($data['age']);
 		$flag = Person::where('id',$data['id'])->update($data);
 		$backurl = "person/edit/".$data['id'];

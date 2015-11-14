@@ -45,8 +45,11 @@
          </span>
     </p>
     <p>
-         <label>状态</label>
-         <span class="field" style="padding:11px;"><input type="checkbox" name="status" @if($data['detail']->status == 1) checked @endif value="1" checked="checked" style="opacity: 0;" ></span>
+         <label>属性</label>
+         <span class="field" style="padding:11px;">
+         	<input type="checkbox" name="status" @if($data['detail']->status == 1) checked @endif value="1" style="opacity: 0;" > 状态
+         	<input type="checkbox" name="is_director" @if($data['detail']->is_director == 1) checked @endif value="1" style="opacity: 0;" > 是否导演
+          </span>
     </p>    
     
      	<input type="hidden" name="id" value="{{ $data['detail']->id }}" />

@@ -42,6 +42,10 @@
          <span class="field"><input type="text"  value="{{ $data['detail']->sort }}"  name="sort" class="smallinput"></span>
     </p>   
     <p>
+         <label>播放时间</label>
+         <span class="field"><input type="text"  value="{{ $data['detail']->play_time }}"  name="play_time" class="smallinput"></span>
+    </p>   
+    <p>
          <label>导演</label>
          <span class="field">
          <select name="director_id" id="selection">

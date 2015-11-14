@@ -5,7 +5,8 @@ class Admin_UploadifyController extends Controller {
 	private $siteRoot = '';//¸ùÄ¿Â¼
 
 	public function __construct(){
-		$this->siteRoot = "http://" . $_SERVER['SERVER_NAME'] . ($_SERVER['SERVER_PORT'] == 80 ? '' : ':' . $_SERVER['SERVER_PORT'])."/";
+		$this->siteRoot = "http://" . $_SERVER['HTTP_HOST'] . "/";
+		$this->siteRoot = str_replace('admin','www',$this->siteRoot);
 	}
 
 	public function postUpload() {
@@ -34,7 +35,7 @@ class Admin_UploadifyController extends Controller {
 				if (!move_uploaded_file($tempFile, $targetFile)) {
 					copy($tempFile, $targetFile);
 				}
-				//$targetFile = $this->siteRoot . $targetFile;
+				$targetFile = $this->siteRoot . $targetFile;
 				$arr = array('status' => 1, 'data' => $targetFile);
 				echo json_encode($arr);exit;
 			} else {

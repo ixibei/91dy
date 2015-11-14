@@ -17,9 +17,10 @@ class MovieCategoryController extends BaseController {
             $data['count'] = 12;
         } else {
             $data['catInfo'] = MovieCategory::where('url','=',$url)->firstOrFail()->toArray();
-            $data['count'] = MovieCategoryList::where('category_id','=',$data['catInfo']['id'])->count();
             $detail = MovieCategoryList::getMovie($data['catInfo']['id'],$country,$year,$mingxing,$orderBy,$currentPage);//多重条件查询
+            $data['count'] = $detail['count'];
             $data['data']  = $detail['data'];
+            $data['breadcrumbs'] = $detail['breadcrumbs'];
         }
         return $this->_cacheView($view,$data);
     }

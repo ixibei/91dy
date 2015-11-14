@@ -41,14 +41,20 @@ class MovieCategoryList extends Eloquent {
 		$where = 'L.category_id='.$category_id;
 		$leftJoin = 'left join m_movie as M on L.movie_id=M.id left join m_person as P on P.id=M.director_id';
 		$orderBy = 'order by '.$orderBy.' desc';
-		if($country) $where .= " and M.country_id=$country";
+		$data['breadcrumbs'] = [];
+		if($country){
+			$data['breadcrumbs'][0] = Country::where('id','=',$country)->pluck('name');
+			$where .= " and M.country_id=$country";
+		}
 		if($year){
+			$data['breadcrumbs'][1] = $year;
 			$startYear = $year.'-1-1';
 			$endYear = ($year+1).'-1-1';
 			$where .= ' and M.release_time>='.strtotime($startYear) .' and M.release_time <'.strtotime($endYear);
 		}
 		if($mingxing){
-			$where .= ' and MP.person_id=$mingxing';
+			$data['breadcrumbs'][2] = Person::where('id','=',$mingxing)->pluck('name');
+			$where .= " and MP.person_id=$mingxing";
 			$leftJoin .= ' left join m_movie_person as MP on MP.movie_id=L.movie_id';
 		}
 		$sql = "select count(*) as count from m_movie_category_list as L $leftJoin where $where";

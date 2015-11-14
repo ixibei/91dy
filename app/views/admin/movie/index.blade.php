@@ -36,7 +36,7 @@
         <th class="head0">名称</th>
         <th class="head1">排序</th>
         <th class="head0">状态</th>
-        <th class="head1">状态</th>
+        <th class="head1">推荐</th>
         <th class="head0"  width="5%">操作</th>
       </tr>
     </thead>
