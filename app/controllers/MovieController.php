@@ -15,8 +15,8 @@ class MovieController extends BaseController {
 
     public function detail($id){
         $view = 'movie.detail';
-
-        $data = array();
+        $data['detail'] = Movie::where('id','=',$id)->firstOrFail();
+        //$data['hotMovie'] = Movie::where('')
         return $this->_cacheView($view,$data);
     }
 }
