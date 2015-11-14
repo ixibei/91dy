@@ -101,7 +101,7 @@
 			$id = trim($id,',').')';
 		?>
         @if($id)
-    	@foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
+    	@foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('M.id!='.$detail->id.' and category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
         <li class="video-item high-video-item">
             <a class="img-link hover-item" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank">
                 <img src="{{ $val->img }}" alt="{{ $val->title }}">
@@ -128,7 +128,7 @@
 			$id = trim($id,',').')';
 		?>
         @if($id)
-    	@foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
+    	@foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('M.id!='.$detail->id.' and category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
         @if($key>4)
         <li class="video-item high-video-item">
             <a class="img-link hover-item" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank">
@@ -254,8 +254,9 @@
 			$category = MovieCategoryList::select('category_id')->where('movie_id','=',$detail->id)->take(2)->get();
 			if($category){
 				$info = MovieCategory::where('id','=',$category[0]->category_id)->orderBy('sort','desc')->first();
+			}
 		?>
-        
+        @if($category)
         <div class="right-rank">
             <div class="rank-header">
                 <span class="t">{{ $info->name }}排行榜</span>
@@ -274,8 +275,8 @@
                 </ul>
             </div>
         </div>
-        <?php }?>
-        @if(isset($category[1]->category_id))
+		
+        @if(isset($category[1]))
         <?php $info = MovieCategory::where('id','=',$category[1]->category_id)->orderBy('sort','desc')->first();?>
         <div class="right-rank mt20">
             <div class="rank-header">
@@ -295,7 +296,7 @@
             </div>
         </div>
         @endif
-        
+        @endif
         <!-- 相关资讯 -->
         <div class="right-rank mt20" id="zixun" style="">  
             <div class="rank-header">

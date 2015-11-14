@@ -30,7 +30,7 @@
         <a href="javascript:void(0)" class="search_btn ct" id="search">影视搜索</a> <a rel="nofollow" class="search_message png-fix" target="_blank" href="/article/">最新信息</a>
         <p class="search_hotkey"> 
       	@foreach(Movie::where('tj','=',1)->where('add_time','>',time()-86400*30)->where('status','=',1)->orderBy('sort','desc')->take(5)->get() as $key=>$val)
-        <a href="/movie/{{ $val->id }}.html" target="_blank" @if($key==4)style="color:red"@endif>{{ $val->name }}</a> 
+        <a href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank" @if($key==4)style="color:red"@endif>{{ $val->name }}</a> 
         @endforeach
         </p>
       </form>
@@ -40,7 +40,7 @@
 
 <!--Nav-->
 
-<div class="nav_bg" pbflag="wc_0_导航条">
+<div class="nav_bg">
   <div id="nav">
     <ul class="nav_list">
       <li @if(!$uri)class="nav_current"@endif><a href="/" target="_blank">首页</a></li>

@@ -9,9 +9,7 @@ class Admin_MovieController extends Admin_BaseController {
 	public function getIndex(){
 		$keywords = Input::has('keywords') ? Input::get('keywords') : '';
 		$data = array();
-		$where = '1=1';
-		if($keywords) $where .= ' and name like "%'.$keywords.'%"';
-		$data['detail'] = Movie::whereRaw($where,array())->orderBy('sort','desc')->orderBy('id','desc')->get();
+		$data['detail'] = Movie::getMovie($keywords);
 		return $this->_cacheView('admin.movie.index',$data);
 	}
 
