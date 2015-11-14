@@ -62,7 +62,10 @@ class BaseController extends Controller {
      * @param string $houzui 分页后缀
      * @return string
      */
-    public static function getPages($count,$currentPage,$index='',$num = 20,$prefix = '',$houzui = '.html'){
+    public static function getPages($count,$currentPage,$index='',$param = array(),$num = 30){
+        array_pop($param);//去除最后一个元素为分页
+        $uri = implode('_',$param);
+        $uri .= '_';
         $totalPage = ceil($count/$num);
         $upPage = $downPage = $pages = $hover = '';//上一页 下一页
         $start = $currentPage > $totalPage-4 ? $currentPage-8+($totalPage-$currentPage) : $currentPage-4;//开始页
@@ -76,18 +79,19 @@ class BaseController extends Controller {
         else	$downPage = $currentPage+1;
 
         for($i=$start; $i<=$end; $i++){
-            if($i == $currentPage) $hover = 'class="active"';
-            $pages .= '<a target="_self" '.$hover.' href="/'.$index.'/'.$prefix.$i.$houzui.'" title="第'.$i.'页">'.$i.'</a>'."\r\n";
-            $hover = '';
+            if($i == $currentPage){
+                $pages .= '<span class="current">'.$i.'</span>';
+            } else {
+                $pages .= '<a target="_self" '.$hover.' href="/'.$index.$uri.$currentPage.'" title="第'.$i.'页">'.$i.'</a>'."\r\n";
+            }
         }
-        $html = '<div class="j31turnPage">
-					<span>分页： <i>'.$currentPage.'/'.$totalPage.'</i>页</span>
-		 			<a target="_self" href="/'.$index.'/'.$prefix.'1.'.$houzui.'" class="j31Prev">首页</a>
-		 			<a target="_self" href="/'.$index.'/'.$prefix.$upPage.$houzui.'" class="j31Prev">上一页</a>
-		 			'.$pages.'
-		 			<a target="_self" href="/'.$index.'/'.$prefix.$downPage.$houzui.'" class="j31Next">下一页</a>
-		 			<a target="_self" href="/'.$index.'/'.$prefix.$totalPage.$houzui.'" class="j31Next">尾页</a>
-		</div>';
+        $html = '<div class="sub-pager-bar">
+                <a href="/'.$index.'/'.$uri.$upPage.'" class="next">上一页</a>
+                '.$pages.'
+                <span>...</span>
+                <a href="/'.$index.'/'.$uri.$downPage.'">'.$totalPage.'</a>
+                <a href="/'.$index.'/'.$uri.$totalPage.'" class="next">下一页</a>
+			</div>';
         return $html;
     }
 

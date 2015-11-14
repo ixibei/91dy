@@ -7,6 +7,8 @@ Route::group(['domain'=>'www.'.$domain,'prefix'=>'','before'=>'website'],functio
 
 	Route::any('/', array('uses' => 'HomeController@index'));
 
+	Route::any('/news/', array('uses' => 'MovieCategoryController@news','as'=>'movieNews'));
+	Route::any('/news/{country}_{mingxing}_{orderBy}_{currentPage}', array('uses' => 'MovieCategoryController@news','as'=>'movieNewsSearch'));
 	Route::any('/category/{url}', array('uses' => 'MovieCategoryController@index','as'=>'movieCategory'));
 	Route::any('/category/{url}/{country}_{year}_{mingxing}_{orderBy}_{currentPage}', array('uses' => 'MovieCategoryController@index','as'=>'movieCategorySearch'));
 

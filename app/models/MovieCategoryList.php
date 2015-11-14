@@ -42,16 +42,19 @@ class MovieCategoryList extends Eloquent {
 		$leftJoin = 'left join m_movie as M on L.movie_id=M.id left join m_person as P on P.id=M.director_id';
 		$orderBy = 'order by '.$orderBy.' desc';
 		$data['breadcrumbs'] = [];
+		//按国家查找
 		if($country){
 			$data['breadcrumbs'][0] = Country::where('id','=',$country)->pluck('name');
 			$where .= " and M.country_id=$country";
 		}
+		//存在按年份查找
 		if($year){
 			$data['breadcrumbs'][1] = $year;
 			$startYear = $year.'-1-1';
 			$endYear = ($year+1).'-1-1';
 			$where .= ' and M.release_time>='.strtotime($startYear) .' and M.release_time <'.strtotime($endYear);
 		}
+		//按明星查找
 		if($mingxing){
 			$data['breadcrumbs'][2] = Person::where('id','=',$mingxing)->pluck('name');
 			$where .= " and MP.person_id=$mingxing";
@@ -65,4 +68,39 @@ class MovieCategoryList extends Eloquent {
 		return $data;
 	}
 
+	/**
+	 * @param $country 电影国家
+	 * @param $year 电影的年份
+	 * @param $mingxing 电影所属明星
+	 * @param $orderBy 按照什么排序 1 点击量 | 2 评分排序 | 3 最新时间排序
+	 * @param $currentPage 当前的页数
+	 * @return mixed
+	 */
+	public static function getNewsMovie($country,$mingxing,$orderBy,$currentPage){
+		$num = 30;
+		$orderBy = $orderBy == 1 ? 'hits' : ($orderBy == 2 ? 'score' : 'release_time');
+		$start = ($currentPage-1)*$num;
+		$field = 'M.name,M.release_time,M.id,M.img,M.play_time,M.intro,M.title,M.director_id,M.score,P.name as director';
+		$where = 'M.is_news=1';
+		$leftJoin = 'left join m_person as P on P.id=M.director_id';
+		$orderBy = 'order by M.'.$orderBy.' desc';
+		$data['breadcrumbs'] = [];
+		//按国家查找
+		if($country){
+			$data['breadcrumbs'][0] = Country::where('id','=',$country)->pluck('name');
+			$where .= " and M.country_id=$country";
+		}
+		//按明星查找
+		if($mingxing){
+			$data['breadcrumbs'][2] = Person::where('id','=',$mingxing)->pluck('name');
+			$where .= " and MP.person_id=$mingxing";
+			$leftJoin .= ' left join m_movie_person as MP on MP.movie_id=M.id';
+		}
+		$sql = "select count(*) as count from m_movie as M $leftJoin where $where";
+		$count = DB::select($sql);
+		$data['count'] = $count[0]->count;
+		$sql = "select $field from m_movie as M $leftJoin where $where  $orderBy limit $start,$num ";
+		$data['data'] = DB::select($sql);
+		return $data;
+	}
 }
