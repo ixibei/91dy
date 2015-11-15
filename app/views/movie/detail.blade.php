@@ -52,7 +52,7 @@
                          <span class="info-title">简介：</span>
                          <div id="tv_summary" class="info-cont">
                          	<span class="width-540 close">
-                            	{{ mb_substr($detail->content,0,101,'utf-8') }}...<a href="{{ URL::ROUTE('moviePlay',[$detail->id]) }}">[详情]</a>
+                            	{{ mb_substr($detail->intro,0,101,'utf-8') }}...<a href="{{ URL::ROUTE('moviePlay',[$detail->id]) }}">[详情]</a>
                            </span>
                        </div>
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                     <!-- 顶踩 -->
                 <div class="dingcai" id="updown" style="">
-                	<a href="http://kan.sogou.com/player/180825226/#" class="dc-btn ding-btn" data-type="up"></a>
+                	<a href="javascript:void(0)" class="dc-btn ding-btn" data-type="up"></a>
                     
                 	<div class="dc-percent">   
                     	<p class="txt">         
@@ -73,80 +73,59 @@
 	                        <div class="ding-percent" style="width: 0%"></div>   
                         </div> 
                     </div>
-	                <a href="http://kan.sogou.com/player/180825226/#" class="dc-btn cai-btn" data-type="down"></a>
+	                <a href="javascript:void(0)" class="dc-btn cai-btn" data-type="down"></a>
                 </div>
         </dd>
     </dl>
     <!--看点-->
     </div>
     
+    <div class="left-tab-module js-tab-module mt20" id="recommend_module">
+           <div class="tab-bar">
+                <a href="" class="on btn js-tab-btn" id="bar_guess">剧情介绍</a>
+                <div class="line">
+                </div>
+            </div>
+    
+   			<div class="tab-content mt20 video-scroll high-scroll js-tab-content" id="content_guess">
+                {{ $detail->content }}
+   			</div>
+	    </div>
     <!-- 猜你喜欢 -->
     <div class="left-tab-module js-tab-module mt20" id="recommend_module">
-       <div class="tab-bar">
-            <a href="http://kan.sogou.com/player/180825226/#" class="on btn js-tab-btn" id="bar_guess">猜你喜欢</a>
-            <div class="line">
+           <div class="tab-bar">
+                <a href="" class="on btn js-tab-btn" id="bar_guess">猜你喜欢</a>
+                <div class="line">
+                </div>
             </div>
-        </div>
     
-    <div class="tab-content mt20 video-scroll high-scroll js-tab-content" id="content_guess">
-	    <ul class="list cf" style="width: 10000px;">
-    	<?php 
-			$ids = MovieCategoryList::select('category_id')->where('movie_id','=',$detail->id)->get()->toArray();
-			$id = '(';
-			foreach($ids as $val){
-				$id .= $val['category_id'].',';
-			}
-			$id = trim($id,',').')';
-		?>
-        @if($id)
-    	@foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('M.id!='.$detail->id.' and category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
-        <li class="video-item high-video-item">
-            <a class="img-link hover-item" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank">
-                <img src="{{ $val->img }}" alt="{{ $val->title }}">
-                <span class="p-cover"></span>
-                <i class="pi"></i>
-                <span class="op-cover">{{ $val->play_time }}</span>
-            </a>
-            <a href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank" class="title">{{ $val->name }}</a>
-            <span class="type">{{ mb_substr($val->intro,0,15,'utf-8') }}</span>
-        </li>        
-        @endforeach
-        @endif
-        </ul>
-    </div>
-    
-        <div class="tab-content mt20 video-scroll high-scroll js-tab-content" id="content_guess">
-	    <ul class="list cf" style="width: 10000px;">
-    	<?php 
-			$ids = MovieCategoryList::select('category_id')->where('movie_id','=',$detail->id)->get()->toArray();
-			$id = '(';
-			foreach($ids as $val){
-				$id .= $val['category_id'].',';
-			}
-			$id = trim($id,',').')';
-		?>
-        @if($id)
-    	@foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('M.id!='.$detail->id.' and category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
-        @if($key>4)
-        <li class="video-item high-video-item">
-            <a class="img-link hover-item" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank">
-                <img src="{{ $val->img }}" alt="{{ $val->title }}">
-                <span class="p-cover"></span>
-                <i class="pi"></i>
-                <span class="op-cover">{{ $val->play_time }}</span>
-            </a>
-            <a href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank" class="title">{{ $val->name }}</a>
-            <span class="type">{{ mb_substr($val->intro,0,15,'utf-8') }}</span>
-        </li>        
-        @endif
-        @endforeach
-        @endif
-        </ul>
-    </div>
-    
-
-    
-    </div>
+   			<div class="tab-content mt20 video-scroll high-scroll js-tab-content" id="content_guess">
+                <ul class="list cf" style="width: 10000px;">
+					<?php 
+                        $ids = MovieCategoryList::select('category_id')->where('movie_id','=',$detail->id)->get()->toArray();
+                        $id = '(';
+                        foreach($ids as $val){
+                            $id .= $val['category_id'].',';
+                        }
+                        $id = trim($id,',').')';
+                    ?>
+                    @if($id)
+                    @foreach(MovieCategoryList::select('M.name','M.title','M.id','M.img','M.intro')->whereRaw('M.id!='.$detail->id.' and category_id in '.$id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.id','desc')->groupBy('M.id')->take(5)->get() as $key=>$val)
+                    <li class="video-item high-video-item">
+                        <a class="img-link hover-item" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank">
+                            <img src="{{ $val->img }}" alt="{{ $val->title }}">
+                            <span class="p-cover"></span>
+                            <i class="pi"></i>
+                            <span class="op-cover">{{ $val->play_time }}</span>
+                        </a>
+                        <a href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" target="_blank" class="title">{{ $val->name }}</a>
+                        <span class="type">{{ mb_substr($val->intro,0,15,'utf-8') }}</span>
+                    </li>        
+                    @endforeach
+                    @endif
+                </ul>
+   			</div>
+	    </div>
 
     </div>
     
