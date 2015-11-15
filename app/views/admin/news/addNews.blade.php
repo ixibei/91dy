@@ -20,18 +20,7 @@
                  @endforeach
             </select>
          </span>
-    </p>
-    <p>
-         <label>所属朝代</label>
-         <span class="field">
-         <select name="dyid" id="selection">
-         	<option value="0">--请选择--</option>
-         @foreach($data['dynasty'] as $val)
-            <option value="{{$val->id}}">{{$val->classname}}</option>
-         @endforeach
-        </select>
-         </span>
-    </p>    
+    </p>  
     <p>
          <label>短标题</label>
          <span class="field"><input type="text" name="minititle" class="smallinput"></span>

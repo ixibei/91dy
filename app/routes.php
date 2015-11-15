@@ -36,16 +36,12 @@ Route::group(['domain'=>'admin.'.$domain,'prefix'=>'/','before'=>'auth.backend']
 		'country' => 'Admin_CountryController',
 		'person' => 'Admin_PersonController',//电影专题
 		'movie' => 'Admin_MovieController',//电影
-		'demo' => 'Admin_DemoController',
-		'dynasty' => 'Admin_DynastyController',
 		'keywords' => 'Admin_KeywordsController',
 		'news' => 'Admin_NewsController',
-		'poem' => 'Admin_PoemController',
 		'slide' => 'Admin_SlideController',
 		'slideCategory' => 'Admin_SlideCategoryController',
 		'feedback' => 'Admin_FeedbackController',
 		'friendLink' => 'Admin_FriendLinkController',
-		'topic' => 'Admin_TopicController',
 	));
 	//公共管理
 	Route::any('base/changeStatus',array('as'=>'changeStatus','uses'=>'Admin_BaseController@changeStatus'));//改变状态

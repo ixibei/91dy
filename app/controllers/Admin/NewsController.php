@@ -22,11 +22,8 @@ class Admin_NewsController extends Admin_BaseController {
 		$data['detail'] = News::where('id',$id)->first();//新闻详情
 		$data['category'] = NewsClass::where('cid','=',0)->get();//分类
 		$data['ncategory'] = NewsClass::orderBy('cid','desc')->where('cid','!=',0)->get();//子分类
-		$data['dynasty'] = Dynasty::get();//所属朝代
 		$data['relate']['xgids'] = News::getRelate('News',$data['detail']['xgids'],'newstitle');
 		$data['relate']['rwid'] = News::getRelate('Person',$data['detail']['rwid'],'rwname');
-		$data['relate']['htid'] = News::getRelate('Ht',$data['detail']['htid'],'ftname');
-		$data['relate']['scid'] = News::getRelate('Poem',$data['detail']['scid'],'Poetryname');
 		return $this->_cacheView('admin.news.editNews',$data);
 	}
 
@@ -49,7 +46,6 @@ class Admin_NewsController extends Admin_BaseController {
 	public function getAddNews(){
 		$data['category'] = NewsClass::where('cid','=',0)->get();//分类
 		$data['ncategory'] = NewsClass::orderBy('cid','desc')->where('cid','!=',0)->get();//子分类
-		$data['dynasty'] = Dynasty::get();//所属朝代
 		return $this->_cacheView('admin.news.addNews',$data);
 	}
 

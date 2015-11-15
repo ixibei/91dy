@@ -20,17 +20,6 @@
                  @endforeach
             </select>
          </span>
-    </p>
-    <p>
-         <label>所属朝代</label>
-         <span class="field">
-         <select name="dyid" id="selection">
-         	<option value="0">--请选择--</option>
-         @foreach($data['dynasty'] as $val)
-            <option value="{{$val->id}}" @if($val->id == $data['detail']->dyid) selected @endif>{{$val->classname}}</option>
-         @endforeach
-        </select>
-         </span>
     </p>    
     <p>
          <label>短标题</label>
@@ -51,42 +40,8 @@
             <button class="stdbtn btn_lime" id="uploadNewsImg">Upload</button>
          </span>
     </p>
-    <p>
-         <label>相关人物</label>
-         <span class="field">
-         	<input type="text" id="minInput" name="rwid"  class="smallinput">
-            <a href="javascript:void(0)" onclick="relate(this,'rwid','{{ url('person/index') }}')" class="btn  btn_search radius50"><span>Search</span></a>
-            @if(isset($data['relate']['rwid']))
-            @foreach($data['relate']['rwid'] as $val)
-            	<span class="u-relation-name rwid_{{$val['id']}}">{{$val['rwname']}}<input type="hidden" name="rwid[]" value="{{$val['id']}}"><span class="close">x</span></span>
-            @endforeach
-            @endif
-         </span>
-    </p>
-    <p>
-         <label>相关话题</label>
-         <span class="field">
-	         <input type="text" id="minInput" name="htid"  class="smallinput">  
-         	<a href="javascript:void(0)" onclick="relate(this,'htid','{{ url('topic/index') }}')" class="btn  btn_search radius50"><span>Search</span></a>
-            @if(isset($data['relate']['htid']))
-            @foreach($data['relate']['htid'] as $val)
-            	<span class="u-relation-name htid_{{$val['id']}}">{{$val['ftname']}}<input type="hidden" name="htid[]" value="{{$val['id']}}"><span class="close">x</span></span>
-            @endforeach
-            @endif
-         </span>
-    </p>
-    <p>
-         <label>相关诗词</label>
-         <span class="field">
-	        <input type="text" id="minInput" name="scid"  class="smallinput"> 
-         	<a href="javascript:void(0)" onclick="relate(this,'scid','{{ url('poem/index') }}')" class="btn  btn_search radius50"><span>Search</span></a>
-            @if(isset($data['relate']['scid']))
-            @foreach($data['relate']['scid'] as $val)
-            	<span class="u-relation-name scid_{{$val['id']}}">{{$val['Poetryname']}}<input type="hidden" name="scid[]" value="{{$val['id']}}"><span class="close">x</span></span>
-            @endforeach
-            @endif
-         </span>
-    </p>
+
+
     <p>
          <label>相关新闻</label>
          <span class="field" >
