@@ -3,17 +3,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <title>
-            《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网
-        </title>
+        <title></title>
         <meta name="keywords" content="绿色地狱BD中英双字在线观看,绿色地狱BD中英双字百度影音,绿色地狱BD中英双字qvod快播下载">
         <meta name="description" content="绿色地狱BD中英双字快播在线播放剧情：">
-        <link href="http://www.bibiqi.com/Tpl/bibiqi_v1.0/css/global.css?v=20131114"
-        rel="stylesheet">
-        <link href="http://www.bibiqi.com/Tpl/bibiqi_v1.0/css/common.css?v=20131221"
-        rel="stylesheet">
-        <link href="http://www.bibiqi.com/Tpl/bibiqi_v1.0/css/main.css?v=20140113"
-        rel="stylesheet">
+        <link href="/css/global.css?v=20131114" rel="stylesheet">
+        <link href="/css/common.css?v=20131221" rel="stylesheet">
+        <link href="/css/main.css?v=20140113" rel="stylesheet">
         <!--[if lt IE 9]>
             <script src="/Tpl/bibiqi_v1.0/js/plugin/html5.js">
             </script>
@@ -33,7 +28,7 @@
         data-baidu-clb-type="right-down" style="margin-right: 0px; margin-bottom: 0px; padding: 0px; border: none; text-align: left; word-wrap: normal; display: block; float: none; visibility: visible; outline: none; vertical-align: baseline; opacity: 1; white-space: normal; text-indent: 0px; clear: none; overflow: hidden; position: fixed; text-decoration: none; z-index: 2147483647; width: 342px; height: 140px; right: 0px; bottom: 0px; background-image: none; background-color: transparent;">
             <div>
                 <ins id="baidu_clb_ad_1447549908243" style="display: block; width: 342px; height: 140px; position: relative; overflow: hidden;">
-                    <a href="http://www.baidu.com/cb.php?c=IgF_pyfqQHRsnj64P1c1Pj6vPHfvP1T3PH00IZ0qnfK9ujYkPW61P1bs0Aw-5HDLrH0LnjD0TAq15HDsrj01njT0T1YsujwWnHN9mH-9mycdn1fL0AwY5HDYPjTdPjb4njf0IgF_5y9YIZ0lQzqYTMN-ThwlQMKL0ZFb5Hc0mhYqn0KsTWYs0ZNGujYLrHcLnj010AqGujYzrjDLnWc0mv-b5Hn4Pj0sP6KEIv3qnWR4rjnd0ZK45HDsPfKWThnqn1TLn1b"
+                    <a href=""
                     target="_blank" style="position: absolute; z-index: 999; top: 0px; width: 100%; height: 2000px; opacity: 0; outline: none; background-color: rgb(255, 255, 255);">
                     </a>
                     <img src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/0f000n0eYTaFOmsHwuiZ7f.png"
@@ -43,72 +38,24 @@
         </ins>
         <header class="v_header">
             <div class="wrapper clearfix">
-                <a class="v_logo fl" href="http://www.bibiqi.com/" title="比比奇电影网">
-                    <img width="74" height="29" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/v_logo.png"
-                    alt="比比奇电影网">
+                <a class="v_logo fl" href="/" title="91电影网">
+                    <img width="74" height="29" src="/img/logo.png" alt="91电影网">
                 </a>
                 <div class="v_nav fl clearfix">
                     <em>
                     </em>
-                    <a class="home" href="http://www.bibiqi.com/">
+                    <a class="home" href="http://www.91dy.me/">
                     </a>
                     <em>
                     </em>
                     <div class="sel_wrap" id="select1">
-                        <a class="classify sel_el" href="http://www.bibiqi.com/kongbu/" target="_blank">
+                        <a class="classify sel_el" href="{{ URL::ROUTE('movieCategory',['kongbu']) }}" target="_blank">
                             恐怖
                         </a>
                         <ul class="sel_ul">
-                            <li class="curr">
-                                <a href="http://www.bibiqi.com/dianying/" target="_blank">
-                                    电 影
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/dianshiju/" target="_blank">
-                                    电视剧
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/dongmana/" target="_blank">
-                                    动 漫
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/zongyi/" target="_blank">
-                                    综 艺
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/hotmovie/" target="_blank">
-                                    视 频
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/dzdy/" target="_blank">
-                                    动 作
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/dzdy/t_haolaiwu/#list" target="_blank">
-                                    好莱坞
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/guochan/" target="_blank">
-                                    卫 视
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/paihang/" target="_blank">
-                                    排 行
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.bibiqi.com/dianying/all/#list" target="_blank">
-                                    更 多
-                                </a>
-                            </li>
+                          @foreach(MovieCategory::where('status','=','1')->orderBy('sort','desc')->orderBy('id','desc')->take(5)->get() as $val)
+                          <li @if($uri == $val->url)class="nav_current"@endif><a href="{{ URL::route('movieCategory', [$val->url] ) }}" target="_blank">{{ $val->name }}</a></li>
+                          @endforeach
                             <li class="hide_btn" title="隐藏">
                             </li>
                         </ul>
@@ -116,7 +63,7 @@
                     <em>
                     </em>
                 </div>
-                <form id="g_search_form" class="v_search fl clearfix" action="http://www.bibiqi.com/index.php?s=Home-search-search"
+                <form id="g_search_form" class="v_search fl clearfix" action="http://www.91dy.me/index.php?s=Home-search-search"
                 method="post" target="_blank">
                     <input id="s_ac" class="text fl" type="text" name="wd" autocomplete="off"
                     value="行尸走肉第六季" onfocus="if (value ==&#39;行尸走肉第六季&#39;) value =&#39;&#39;;"
@@ -126,43 +73,43 @@
                 <div class="v_hot fl">
                     <ul id="text_scroll" style="top: -28.8729490098387px;">
                         <li>
-                            <a href="http://www.bibiqi.com/omdsj/hszrdlj/" target="_blank">
+                            <a href="http://www.91dy.me/omdsj/hszrdlj/" target="_blank">
                                 行尸走肉第六季
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/xiju/g068257/" target="_blank">
+                            <a href="http://www.91dy.me/xiju/g068257/" target="_blank">
                                 港囧
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/dzdy/bhblwkds/" target="_blank">
+                            <a href="http://www.91dy.me/dzdy/bhblwkds/" target="_blank">
                                 巴霍巴
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/dzdy/dzd5skgd/" target="_blank">
+                            <a href="http://www.91dy.me/dzdy/dzd5skgd/" target="_blank">
                                 碟中谍5
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/khdy/cdmg2sgpp/" target="_blank">
+                            <a href="http://www.91dy.me/khdy/cdmg2sgpp/" target="_blank">
                                 移动迷宫2
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/dzdy/jjwx80658/" target="_blank">
+                            <a href="http://www.91dy.me/dzdy/jjwx80658/" target="_blank">
                                 解救吾先生
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/omdsj/hszrdlj/" target="_blank">
+                            <a href="http://www.91dy.me/omdsj/hszrdlj/" target="_blank">
                                 行尸走肉第六季
                             </a>
                         </li>
                     </ul>
                 </div>
-                <a class="v_rank fl" href="http://www.bibiqi.com/paihang/">
+                <a class="v_rank fl" href="http://www.91dy.me/paihang/">
                     排行榜
                 </a>
                 <div class="g_tools v_tools fr">
@@ -171,13 +118,13 @@
                             <a id="g_login" class="login" href="javascript:;">
                                 登录
                             </a>
-                            <a class="qq_login pngFix" href="http://www.bibiqi.com/member/qq" target="_blank"
+                            <a class="qq_login pngFix" href="http://www.91dy.me/member/qq" target="_blank"
                             title="QQ账号一键登录">
                             </a>
                             <em>
                                 |
                             </em>
-                            <a class="reg" href="http://www.bibiqi.com/member/reg" target="_blank">
+                            <a class="reg" href="http://www.91dy.me/member/reg" target="_blank">
                                 注册
                             </a>
                             <em>
@@ -195,7 +142,7 @@
                         </a>
                         <section id="g_login_box" class="g_login_box">
                             <div class="bd">
-                                <form action="http://www.bibiqi.com/index.php?s=Home-Member-login" method="post">
+                                <form action="http://www.91dy.me/index.php?s=Home-Member-login" method="post">
                                     <input type="hidden" name="ajax" value="1">
                                     <p>
                                         <label for="g_usr_input">
@@ -212,14 +159,14 @@
                                     <button id="g_smt_button" type="submit">
                                         登录
                                     </button>
-                                    <a class="get_pwd" href="http://www.bibiqi.com/member/getpassword" target="_blank">
+                                    <a class="get_pwd" href="http://www.91dy.me/member/getpassword" target="_blank">
                                         找回密码
                                     </a>
                                 </form>
                             </div>
                             <div class="ft">
                                 还没有账号？ 请
-                                <a href="http://www.bibiqi.com/member/reg" target="_blank">
+                                <a href="http://www.91dy.me/member/reg" target="_blank">
                                     注册
                                 </a>
                             </div>
@@ -231,7 +178,7 @@
                                 </p>
                             </div>
                             <div class="ft">
-                                <a href="http://www.bibiqi.com/member/collect" target="_blank">
+                                <a href="http://www.91dy.me/member/collect" target="_blank">
                                     管理我的收藏
                                 </a>
                             </div>
@@ -247,10 +194,10 @@
                                     <dd>
                                         <a class="rm" href="javascript:;">
                                         </a>
-                                        <a class="con" target="_blank" href="http://www.bibiqi.com/dzdy/dzd5skgd/">
+                                        <a class="con" target="_blank" href="http://www.91dy.me/dzdy/dzd5skgd/">
                                             继续观看
                                         </a>
-                                        <a data-id="" class="name" target="_blank" href="http://www.bibiqi.com/dzdy/dzd5skgd/">
+                                        <a data-id="" class="name" target="_blank" href="http://www.91dy.me/dzdy/dzd5skgd/">
                                             碟中谍5失控国度
                                         </a>
                                     </dd>
@@ -271,20 +218,20 @@
         </header>
         <section class="p_play_breadnav">
             <div class="wrapper">
-                <a class="gb fr" href="http://www.bibiqi.com/gb-show" target="_blank">
+                <a class="gb fr" href="http://www.91dy.me/gb-show" target="_blank">
                     [留言报错]
                 </a>
                 <section class="breadnav">
                     当前位置：
-                    <a href="http://www.bibiqi.com/">
+                    <a href="http://www.91dy.me/">
                         首页
                     </a>
                     &gt;
-                    <a href="http://www.bibiqi.com/kongbu/">
+                    <a href="http://www.91dy.me/kongbu/">
                         恐怖
                     </a>
                     &gt;
-                    <a href="http://www.bibiqi.com/kongbu/lsdy81304/" target="_blank">
+                    <a href="http://www.91dy.me/kongbu/lsdy81304/" target="_blank">
                         绿色地狱
                     </a>
                     BD中英双字 在线观看
@@ -306,7 +253,7 @@
                             </a>
                             <h1>
                                 正在播放
-                                <a href="http://www.bibiqi.com/kongbu/lsdy81304/" target="_blank">
+                                <a href="http://www.91dy.me/kongbu/lsdy81304/" target="_blank">
                                     绿色地狱
                                 </a>
                                 BD中英双字
@@ -317,10 +264,10 @@
                         </div>
                         <div class="bottom clearfix">
                             <div class="tools fl">
-                                <a class="see" target="_blank" href="http://www.bibiqi.com/kongbu/lsdy81304/#cmt_anchor">
+                                <a class="see" target="_blank" href="http://www.91dy.me/kongbu/lsdy81304/#cmt_anchor">
                                     看评论
                                 </a>
-                                <a class="problem" href="http://www.bibiqi.com/kongbu/lsdy81304/player-0-0.html#baocuo">
+                                <a class="problem" href="http://www.91dy.me/kongbu/lsdy81304/player-0-0.html#baocuo">
                                     影片无法播放
                                 </a>
                                 <a id="light_off" class="light_off" href="javascript:;" style="color: rgb(255, 102, 0);">
@@ -370,7 +317,7 @@
                     <section class="rec">
                         <div class="content clearfix type2">
                             <div class="first special fl">
-                                <a class="img_wrap" title="源自于1996年的真实事件" href="http://www.bibiqi.com/juqing/jmhb_kmf/"
+                                <a class="img_wrap" title="源自于1996年的真实事件" href="http://www.91dy.me/juqing/jmhb_kmf/"
                                 target="_blank">
                                     <img width="259" height="345" alt="绝命海拔/圣母峰" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/jmhb_kmf.jpg"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -388,7 +335,7 @@
                             </div>
                             <ul class="cm_ul fr clearfix">
                                 <li class="first">
-                                    <a class="img_wrap" title="又名: 夜半奇谭之附近的人" href="http://www.bibiqi.com/kongbu/guaitan/"
+                                    <a class="img_wrap" title="又名: 夜半奇谭之附近的人" href="http://www.91dy.me/kongbu/guaitan/"
                                     target="_blank">
                                         <img width="120" height="160" alt="怪谈" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55159c150d333.jpg"
                                         onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -407,7 +354,7 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <a class="img_wrap" title="万劫不复的恐怖轮回" href="http://www.bibiqi.com/kongbu/kbllmssgz/"
+                                    <a class="img_wrap" title="万劫不复的恐怖轮回" href="http://www.91dy.me/kongbu/kbllmssgz/"
                                     target="_blank">
                                         <img width="120" height="160" alt="恐怖游轮/迷失三角洲" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/15_kbllmssgz.jpg"
                                         onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -426,7 +373,7 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <a class="img_wrap" title="悲剧的复仇女王" href="http://www.bibiqi.com/kongbu/jfnsrsjdsm/"
+                                    <a class="img_wrap" title="悲剧的复仇女王" href="http://www.91dy.me/kongbu/jfnsrsjdsm/"
                                     target="_blank">
                                         <img width="120" height="160" alt="金福南杀人事件的始末" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/15_jfnsrsjdsm.jpg"
                                         onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -447,28 +394,28 @@
                             </ul>
                             <ul class="list fr clearfix">
                                 <li>
-                                    <a title="一种奇怪的亲密联系" href="http://www.bibiqi.com/kongbu/kzlhamrcs/" target="_blank">
+                                    <a title="一种奇怪的亲密联系" href="http://www.91dy.me/kongbu/kzlhamrcs/" target="_blank">
                                         控制游戏/无人查收
                                     </a>
                                     <span>
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="兰伯特闹鬼事件数年前" href="http://www.bibiqi.com/kongbu/lef3/" target="_blank">
+                                    <a title="兰伯特闹鬼事件数年前" href="http://www.91dy.me/kongbu/lef3/" target="_blank">
                                         阴儿房3
                                     </a>
                                     <span>
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="隐藏的秘密" href="http://www.bibiqi.com/kongbu/sl59152/" target="_blank">
+                                    <a title="隐藏的秘密" href="http://www.91dy.me/kongbu/sl59152/" target="_blank">
                                         死路
                                     </a>
                                     <span>
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="古巴首部原创僵尸电影" href="http://www.bibiqi.com/kongbu/jiangshihuan/"
+                                    <a title="古巴首部原创僵尸电影" href="http://www.91dy.me/kongbu/jiangshihuan/"
                                     target="_blank">
                                         僵尸胡安
                                     </a>
@@ -476,7 +423,7 @@
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="史上最内涵AV之G点传说" href="http://www.bibiqi.com/kongbu/siwangluxiang2/"
+                                    <a title="史上最内涵AV之G点传说" href="http://www.91dy.me/kongbu/siwangluxiang2/"
                                     target="_blank">
                                         死亡录像2
                                     </a>
@@ -484,7 +431,7 @@
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="大家庭的死亡之旅" href="http://www.bibiqi.com/kongbu/geshanyouyan/"
+                                    <a title="大家庭的死亡之旅" href="http://www.91dy.me/kongbu/geshanyouyan/"
                                     target="_blank">
                                         隔山有眼1
                                     </a>
@@ -492,14 +439,14 @@
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="变态医生和痴肥狂男聚头" href="http://www.bibiqi.com/kongbu/renti3/" target="_blank">
+                                    <a title="变态医生和痴肥狂男聚头" href="http://www.91dy.me/kongbu/renti3/" target="_blank">
                                         人体蜈蚣3
                                     </a>
                                     <span>
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="伦敦首席恶魔剃刀手" href="http://www.bibiqi.com/kongbu/lifashitaode/"
+                                    <a title="伦敦首席恶魔剃刀手" href="http://www.91dy.me/kongbu/lifashitaode/"
                                     target="_blank">
                                         理发师陶德
                                     </a>
@@ -507,14 +454,14 @@
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="孤儿院里的怪事" href="http://www.bibiqi.com/kongbu/wuwangwo/" target="_blank">
+                                    <a title="孤儿院里的怪事" href="http://www.91dy.me/kongbu/wuwangwo/" target="_blank">
                                         毋亡我
                                     </a>
                                     <span>
                                     </span>
                                 </li>
                                 <li>
-                                    <a title="获最佳恐怖场景奖" href="http://www.bibiqi.com/kongbu/guikushenhao/"
+                                    <a title="获最佳恐怖场景奖" href="http://www.91dy.me/kongbu/guikushenhao/"
                                     target="_blank">
                                         鬼哭神嚎
                                     </a>
@@ -589,7 +536,7 @@
                             </dl>
                             <p>
                                 如果以上方法均无效，请在
-                                <a href="http://www.bibiqi.com/gb-show" target="_blank">
+                                <a href="http://www.91dy.me/gb-show" target="_blank">
                                     求片留言
                                 </a>
                                 中反馈。
@@ -599,7 +546,7 @@
                     <section class="spe">
                         <ul class="cm_ul clearfix">
                             <li class="first row">
-                                <a class="img_wrap" title="都有那些好看的综艺节目" href="http://www.bibiqi.com/topic/844.html"
+                                <a class="img_wrap" title="都有那些好看的综艺节目" href="http://www.91dy.me/topic/844.html"
                                 target="_blank">
                                     <img width="214" height="132" alt="都有那些好看的综艺节目" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55d98e8022a0b.jpg"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -613,7 +560,7 @@
                                 </a>
                             </li>
                             <li class="row">
-                                <a class="img_wrap" title="2015你都看了哪些好看的电视剧" href="http://www.bibiqi.com/topic/843.html"
+                                <a class="img_wrap" title="2015你都看了哪些好看的电视剧" href="http://www.91dy.me/topic/843.html"
                                 target="_blank">
                                     <img width="214" height="132" alt="2015你都看了哪些好看的电视剧" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55c42022478e1.jpg"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -627,7 +574,7 @@
                                 </a>
                             </li>
                             <li class="row">
-                                <a class="img_wrap" title="2015都有那些好看的电影呢？" href="http://www.bibiqi.com/topic/842.html"
+                                <a class="img_wrap" title="2015都有那些好看的电影呢？" href="http://www.91dy.me/topic/842.html"
                                 target="_blank">
                                     <img width="214" height="132" alt="2015都有那些好看的电影呢？" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55c19bd81d17f.jpg"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -641,7 +588,7 @@
                                 </a>
                             </li>
                             <li class="first">
-                                <a class="img_wrap" title="2014好看的综艺：比比奇推荐的综艺节目" href="http://www.bibiqi.com/topic/841.html"
+                                <a class="img_wrap" title="2014好看的综艺：比比奇推荐的综艺节目" href="http://www.91dy.me/topic/841.html"
                                 target="_blank">
                                     <img width="214" height="132" alt="2014好看的综艺：比比奇推荐的综艺节目" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/547943b670324.jpg"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -655,7 +602,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="img_wrap" title="11月电影电视剧总结编:你都看了那些" href="http://www.bibiqi.com/topic/840.html"
+                                <a class="img_wrap" title="11月电影电视剧总结编:你都看了那些" href="http://www.91dy.me/topic/840.html"
                                 target="_blank">
                                     <img width="214" height="132" alt="11月电影电视剧总结编:你都看了那些" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/54793a1657ffa.jpg"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -669,7 +616,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="img_wrap" title="巨石强森电影作品集：摔角冠军到动作巨星" href="http://www.bibiqi.com/topic/839.html"
+                                <a class="img_wrap" title="巨石强森电影作品集：摔角冠军到动作巨星" href="http://www.91dy.me/topic/839.html"
                                 target="_blank">
                                     <img width="214" height="132" alt="巨石强森电影作品集：摔角冠军到动作巨星" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/544f4629e5368.JPG"
                                     onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
@@ -687,59 +634,59 @@
                 </div>
                 <section class="r fr">
                     <p class="title">
-                        <a class="fr" href="http://www.bibiqi.com/day/" target="_blank">
+                        <a class="fr" href="http://www.91dy.me/day/" target="_blank">
                             更多&gt;&gt;
                         </a>
                         今日观影
                     </p>
                     <ul class="con">
                         <li>
-                            <a href="http://www.bibiqi.com/day/125.html" target="_blank">
+                            <a href="http://www.91dy.me/day/125.html" target="_blank">
                                 《单身男女》年度恋爱大戏
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/124.html" target="_blank">
+                            <a href="http://www.91dy.me/day/124.html" target="_blank">
                                 《新娘大作战》翻拍不靠谱结果成烂片
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/123.html" target="_blank">
+                            <a href="http://www.91dy.me/day/123.html" target="_blank">
                                 《拥抱星星的月亮》刘晓雨不择手段
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/122.html" target="_blank">
+                            <a href="http://www.91dy.me/day/122.html" target="_blank">
                                 范冰冰《杨贵妃》封胸被咔嚓马震
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/121.html" target="_blank">
+                            <a href="http://www.91dy.me/day/121.html" target="_blank">
                                 《捉妖记》电影创造了哪些记录
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/120.html" target="_blank">
+                            <a href="http://www.91dy.me/day/120.html" target="_blank">
                                 【第69期】2014年12月有哪些电影上映:小编盘点
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/119.html" target="_blank">
+                            <a href="http://www.91dy.me/day/119.html" target="_blank">
                                 【第68期】2014年11月年底贺岁档、11月有那些电影
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/118.html" target="_blank">
+                            <a href="http://www.91dy.me/day/118.html" target="_blank">
                                 【第67期】巨石强森的好莱坞电影之路：摔角冠军到动作巨星
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/117.html" target="_blank">
+                            <a href="http://www.91dy.me/day/117.html" target="_blank">
                                 【第66期】一个人的武林:甄子丹王宝强秀功夫10月大片
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.bibiqi.com/day/116.html" target="_blank">
+                            <a href="http://www.91dy.me/day/116.html" target="_blank">
                                 【第65期】好莱坞大片电影重磅巡礼：2015-2016大片抢先看
                             </a>
                         </li>
@@ -758,7 +705,7 @@
                     <h3>
                         请登录比比奇网
                     </h3>
-                    <form action="http://www.bibiqi.com/index.php?s=member-login" method="post">
+                    <form action="http://www.91dy.me/index.php?s=member-login" method="post">
                         <div>
                             <label>
                                 账号
@@ -783,14 +730,14 @@
                     </h3>
                     <div>
                         <p>
-                            <a href="http://www.bibiqi.com/index.php?s=member-user_reg-url-~kongbu~lsdy81304~">
+                            <a href="http://www.91dy.me/index.php?s=member-user_reg-url-~kongbu~lsdy81304~">
                                 注册一个账号
                             </a>
                         </p>
                         <p>
                         </p>
                         <p>
-                            <a class="smt_btn" href="http://www.bibiqi.com/index.php?s=member-qqreg-url-~kongbu~lsdy81304~">
+                            <a class="smt_btn" href="http://www.91dy.me/index.php?s=member-qqreg-url-~kongbu~lsdy81304~">
                             </a>
                         </p>
                     </div>
@@ -809,25 +756,25 @@
                 Copyright @2003-2011 比比奇 www.bibiqi.com ICP备2010111号
             </p>
             <p id="g_footer_links">
-                <a href="http://www.bibiqi.com/gb-show.html" title="求片留言">
+                <a href="http://www.91dy.me/gb-show.html" title="求片留言">
                     求片留言
                 </a>
                 <em>
                     |
                 </em>
-                <a href="http://www.bibiqi.com/help/" title="百度影音帮助">
+                <a href="http://www.91dy.me/help/" title="百度影音帮助">
                     百度影音帮助
                 </a>
                 <em>
                     |
                 </em>
-                <a href="http://www.bibiqi.com/allmovie.html" title="网站地图">
+                <a href="http://www.91dy.me/allmovie.html" title="网站地图">
                     网站地图
                 </a>
                 <em>
                     |
                 </em>
-                <a href="http://www.bibiqi.com/sitemap.xml" title="">
+                <a href="http://www.91dy.me/sitemap.xml" title="">
                     百度地图
                 </a>
                 <em>
