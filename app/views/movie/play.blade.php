@@ -1,1578 +1,839 @@
-@include('layouts.header') 
-
-<!-- 筛选 -->
-<div class="add-wrapper cf aw-mt20">
-    <div class="add-filter">
-        <div class="af-hd cf">
-            <div class="seo-type">
-                                <h1>喜剧电影</h1>
-                            </div>
-            <span class="type">电影筛选</span>
-            <div class="selected">
-                                <span class="t">您已选择：</span>
-                                                        <span class="c">喜剧<a href="http://kan.sogou.com/dianying/----/" class="close">×</a></span>
-                                                                                            <span class="n">共<em>6409</em>部</span>
-                            </div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>
+            《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网
+        </title>
+        <meta name="keywords" content="绿色地狱BD中英双字在线观看,绿色地狱BD中英双字百度影音,绿色地狱BD中英双字qvod快播下载">
+        <meta name="description" content="绿色地狱BD中英双字快播在线播放剧情：">
+        <link href="http://www.bibiqi.com/Tpl/bibiqi_v1.0/css/global.css?v=20131114"
+        rel="stylesheet">
+        <link href="http://www.bibiqi.com/Tpl/bibiqi_v1.0/css/common.css?v=20131221"
+        rel="stylesheet">
+        <link href="http://www.bibiqi.com/Tpl/bibiqi_v1.0/css/main.css?v=20140113"
+        rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="/Tpl/bibiqi_v1.0/js/plugin/html5.js">
+            </script>
+        <![endif]-->
+        <!--[if IE 6]>
+            <script src="/Tpl/bibiqi_v1.0/js/plugin/DD_belatedPNG.js">
+            </script>
+        <![endif]-->
+    </head>
+    
+    <body class="w980 p_play_body">
+        <div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;">
+            <iframe id="BAIDU_DUP_fp_iframe" src="about:blank" style="width: 0px; height: 0px; visibility: hidden; display: none;">
+            </iframe>
         </div>
-        <div class="af-list">
-            <dl class="cf">
-                <dt>按类型</dt>
-                <dd>
-                <span class="c "><a href="http://kan.sogou.com/dianying/----/">全部</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/aiqing----/">爱情</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/donghua----/">动画</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/dongzuo----/">动作</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/jilupian----/">纪录片</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/jingsong----/">惊悚</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/jingfei----/">警匪</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/juqing----/">剧情</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/kehuan----/">科幻</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/kongbu----/">恐怖</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/lunli----/">伦理</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/qihuan----/">奇幻</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/qingchun----/">青春</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/weidianying----/">微电影</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/wenyi----/">文艺</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/wuxia----/">武侠</a></span>
-                                <span class="c on"><a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm">喜剧</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xuanyi----/">悬疑</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/yinyue----/">音乐</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/zainan----/">灾难</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/zhanzheng----/">战争</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/qita----/">其他</a></span>
+        <ins id="baidu_clb_wrapper_ad_1447549908243" data-baidu-clb-id="ad_1447549908243"
+        data-baidu-clb-type="right-down" style="margin-right: 0px; margin-bottom: 0px; padding: 0px; border: none; text-align: left; word-wrap: normal; display: block; float: none; visibility: visible; outline: none; vertical-align: baseline; opacity: 1; white-space: normal; text-indent: 0px; clear: none; overflow: hidden; position: fixed; text-decoration: none; z-index: 2147483647; width: 342px; height: 140px; right: 0px; bottom: 0px; background-image: none; background-color: transparent;">
+            <div>
+                <ins id="baidu_clb_ad_1447549908243" style="display: block; width: 342px; height: 140px; position: relative; overflow: hidden;">
+                    <a href="http://www.baidu.com/cb.php?c=IgF_pyfqQHRsnj64P1c1Pj6vPHfvP1T3PH00IZ0qnfK9ujYkPW61P1bs0Aw-5HDLrH0LnjD0TAq15HDsrj01njT0T1YsujwWnHN9mH-9mycdn1fL0AwY5HDYPjTdPjb4njf0IgF_5y9YIZ0lQzqYTMN-ThwlQMKL0ZFb5Hc0mhYqn0KsTWYs0ZNGujYLrHcLnj010AqGujYzrjDLnWc0mv-b5Hn4Pj0sP6KEIv3qnWR4rjnd0ZK45HDsPfKWThnqn1TLn1b"
+                    target="_blank" style="position: absolute; z-index: 999; top: 0px; width: 100%; height: 2000px; opacity: 0; outline: none; background-color: rgb(255, 255, 255);">
+                    </a>
+                    <img src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/0f000n0eYTaFOmsHwuiZ7f.png"
+                    style="width: 342px; height: 140px; display: block;">
+                </ins>
+            </div>
+        </ins>
+        <header class="v_header">
+            <div class="wrapper clearfix">
+                <a class="v_logo fl" href="http://www.bibiqi.com/" title="比比奇电影网">
+                    <img width="74" height="29" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/v_logo.png"
+                    alt="比比奇电影网">
+                </a>
+                <div class="v_nav fl clearfix">
+                    <em>
+                    </em>
+                    <a class="home" href="http://www.bibiqi.com/">
+                    </a>
+                    <em>
+                    </em>
+                    <div class="sel_wrap" id="select1">
+                        <a class="classify sel_el" href="http://www.bibiqi.com/kongbu/" target="_blank">
+                            恐怖
+                        </a>
+                        <ul class="sel_ul">
+                            <li class="curr">
+                                <a href="http://www.bibiqi.com/dianying/" target="_blank">
+                                    电 影
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/dianshiju/" target="_blank">
+                                    电视剧
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/dongmana/" target="_blank">
+                                    动 漫
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/zongyi/" target="_blank">
+                                    综 艺
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/hotmovie/" target="_blank">
+                                    视 频
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/dzdy/" target="_blank">
+                                    动 作
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/dzdy/t_haolaiwu/#list" target="_blank">
+                                    好莱坞
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/guochan/" target="_blank">
+                                    卫 视
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/paihang/" target="_blank">
+                                    排 行
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.bibiqi.com/dianying/all/#list" target="_blank">
+                                    更 多
+                                </a>
+                            </li>
+                            <li class="hide_btn" title="隐藏">
+                            </li>
+                        </ul>
+                    </div>
+                    <em>
+                    </em>
+                </div>
+                <form id="g_search_form" class="v_search fl clearfix" action="http://www.bibiqi.com/index.php?s=Home-search-search"
+                method="post" target="_blank">
+                    <input id="s_ac" class="text fl" type="text" name="wd" autocomplete="off"
+                    value="行尸走肉第六季" onfocus="if (value ==&#39;行尸走肉第六季&#39;) value =&#39;&#39;;"
+                    onblur="if (value ==&#39;&#39;) value=&#39;行尸走肉第六季&#39;;">
+                    <input class="btn fl" type="submit" value="" title="搜索">
+                </form>
+                <div class="v_hot fl">
+                    <ul id="text_scroll" style="top: -28.8729490098387px;">
+                        <li>
+                            <a href="http://www.bibiqi.com/omdsj/hszrdlj/" target="_blank">
+                                行尸走肉第六季
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/xiju/g068257/" target="_blank">
+                                港囧
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/dzdy/bhblwkds/" target="_blank">
+                                巴霍巴
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/dzdy/dzd5skgd/" target="_blank">
+                                碟中谍5
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/khdy/cdmg2sgpp/" target="_blank">
+                                移动迷宫2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/dzdy/jjwx80658/" target="_blank">
+                                解救吾先生
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/omdsj/hszrdlj/" target="_blank">
+                                行尸走肉第六季
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="v_rank fl" href="http://www.bibiqi.com/paihang/">
+                    排行榜
+                </a>
+                <div class="g_tools v_tools fr">
+                    <div id="g_box_wrap" class="tool_bar clearfix">
+                        <div id="g_login_wrap" class="clearfix fl">
+                            <a id="g_login" class="login" href="javascript:;">
+                                登录
+                            </a>
+                            <a class="qq_login pngFix" href="http://www.bibiqi.com/member/qq" target="_blank"
+                            title="QQ账号一键登录">
+                            </a>
+                            <em>
+                                |
+                            </em>
+                            <a class="reg" href="http://www.bibiqi.com/member/reg" target="_blank">
+                                注册
+                            </a>
+                            <em>
+                                |
+                            </em>
+                        </div>
+                        <a id="g_history" class="history pngFix" href="javascript:;">
+                            播放记录
+                        </a>
+                        <em>
+                            |
+                        </em>
+                        <a id="g_remind" class="remind" href="javascript:;">
+                            提醒
+                        </a>
+                        <section id="g_login_box" class="g_login_box">
+                            <div class="bd">
+                                <form action="http://www.bibiqi.com/index.php?s=Home-Member-login" method="post">
+                                    <input type="hidden" name="ajax" value="1">
+                                    <p>
+                                        <label for="g_usr_input">
+                                            账号：
+                                        </label>
+                                        <input type="text" name="username" id="g_usr_input" value="">
+                                    </p>
+                                    <p>
+                                        <label for="g_pwd_input">
+                                            密码：
+                                        </label>
+                                        <input type="password" name="password" id="g_pwd_input" value="">
+                                    </p>
+                                    <button id="g_smt_button" type="submit">
+                                        登录
+                                    </button>
+                                    <a class="get_pwd" href="http://www.bibiqi.com/member/getpassword" target="_blank">
+                                        找回密码
+                                    </a>
+                                </form>
+                            </div>
+                            <div class="ft">
+                                还没有账号？ 请
+                                <a href="http://www.bibiqi.com/member/reg" target="_blank">
+                                    注册
+                                </a>
+                            </div>
+                        </section>
+                        <section id="g_remind_box" class="g_remind_box">
+                            <div class="bd">
+                                <p>
+                                    您尚未设置任何提醒
+                                </p>
+                            </div>
+                            <div class="ft">
+                                <a href="http://www.bibiqi.com/member/collect" target="_blank">
+                                    管理我的收藏
+                                </a>
+                            </div>
+                        </section>
+                        <section id="g_history_box" class="g_history_box">
+                            <div class="bd">
+                                <span>
+                                </span>
+                                <dl>
+                                    <dt>
+                                        今天
+                                    </dt>
+                                    <dd>
+                                        <a class="rm" href="javascript:;">
+                                        </a>
+                                        <a class="con" target="_blank" href="http://www.bibiqi.com/dzdy/dzd5skgd/">
+                                            继续观看
+                                        </a>
+                                        <a data-id="" class="name" target="_blank" href="http://www.bibiqi.com/dzdy/dzd5skgd/">
+                                            碟中谍5失控国度
+                                        </a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="ft clearfix">
+                                <a class="fr h_login" href="javascript:;">
+                                    登录
+                                </a>
+                                <a class="empty" href="javascript:;">
+                                    清空全部记录
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="p_play_breadnav">
+            <div class="wrapper">
+                <a class="gb fr" href="http://www.bibiqi.com/gb-show" target="_blank">
+                    [留言报错]
+                </a>
+                <section class="breadnav">
+                    当前位置：
+                    <a href="http://www.bibiqi.com/">
+                        首页
+                    </a>
+                    &gt;
+                    <a href="http://www.bibiqi.com/kongbu/">
+                        恐怖
+                    </a>
+                    &gt;
+                    <a href="http://www.bibiqi.com/kongbu/lsdy81304/" target="_blank">
+                        绿色地狱
+                    </a>
+                    BD中英双字 在线观看
+                </section>
+            </div>
+        </section>
+        <section class="p_play_main">
+            <div class="wrapper">
+                <!-- TOP960 2014-9-28 -->
+                <!-- <script>CNZZ_SLOT_RENDER('261402');</script> -->
+                <section class="pic960" style="padding-top:3px; padding-bottom:15px;">
+                    
+                </section>
+                <section class="clearfix">
+                    <div class="l fl">
+                        <div class="title clearfix">
+                            <a class="showlist fr" id="showlist" href="javascript:;">
+                                选集
+                            </a>
+                            <h1>
+                                正在播放
+                                <a href="http://www.bibiqi.com/kongbu/lsdy81304/" target="_blank">
+                                    绿色地狱
+                                </a>
+                                BD中英双字
+                            </h1>
+                        </div>
+                        <div id="play_wrap" class="play_wrap">
+                            
+                        </div>
+                        <div class="bottom clearfix">
+                            <div class="tools fl">
+                                <a class="see" target="_blank" href="http://www.bibiqi.com/kongbu/lsdy81304/#cmt_anchor">
+                                    看评论
+                                </a>
+                                <a class="problem" href="http://www.bibiqi.com/kongbu/lsdy81304/player-0-0.html#baocuo">
+                                    影片无法播放
+                                </a>
+                                <a id="light_off" class="light_off" href="javascript:;" style="color: rgb(255, 102, 0);">
+                                    影院模式
+                                </a>
+                                <div id="light_tip" class="light_tip" style="left: 224px; display: block;">
+                                    无广告模式，大屏看电影！
+                                    <a href="javascript:;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r fr clearfix">
+                        <section class="pic300 fr" style="height:250px;">
+ 
+                            </div>
+                        </section>
+                        <section class="pic300 fr" style="height:250px;">
+                           
+                        </section>
+                        <div class="playlist c" id="playlist">
+                            <a class="player pngFix curr" href="javascript:;">
+                                吉吉影音
+                            </a>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a class="curr" href="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网.htm">
+                                                BD中英双字
+                                            </a>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="p_play wrapper">
+            <div class="sub clearfix">
+                <div class="l fl">
+                    <section class="rec">
+                        <div class="content clearfix type2">
+                            <div class="first special fl">
+                                <a class="img_wrap" title="源自于1996年的真实事件" href="http://www.bibiqi.com/juqing/jmhb_kmf/"
+                                target="_blank">
+                                    <img width="259" height="345" alt="绝命海拔/圣母峰" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/jmhb_kmf.jpg"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            绝命海拔/圣母峰
+                                        </em>
+                                    </span>
+                                </a>
+                                <p>
+                                    影片改编自美国作家乔恩·克拉考尔所著的《进入空气稀薄地带》，故事源自于1996年的真实事件。
+                                </p>
+                            </div>
+                            <ul class="cm_ul fr clearfix">
+                                <li class="first">
+                                    <a class="img_wrap" title="又名: 夜半奇谭之附近的人" href="http://www.bibiqi.com/kongbu/guaitan/"
+                                    target="_blank">
+                                        <img width="120" height="160" alt="怪谈" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55159c150d333.jpg"
+                                        onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                        <span class="note_adds">
+                                            <em class="note_text">
+                                            </em>
+                                            <em class="note_icon">
+                                            </em>
+                                        </span>
+                                        <span class="name">
+                                            怪谈
+                                        </span>
+                                    </a>
+                                    <p>
+                                        主演:李治廷 文咏珊 朱珠 罗兰 梁烈唯
+                                    </p>
+                                </li>
+                                <li>
+                                    <a class="img_wrap" title="万劫不复的恐怖轮回" href="http://www.bibiqi.com/kongbu/kbllmssgz/"
+                                    target="_blank">
+                                        <img width="120" height="160" alt="恐怖游轮/迷失三角洲" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/15_kbllmssgz.jpg"
+                                        onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                        <span class="note_adds">
+                                            <em class="note_text">
+                                            </em>
+                                            <em class="note_icon">
+                                            </em>
+                                        </span>
+                                        <span class="name">
+                                            恐怖游轮/迷失三角洲
+                                        </span>
+                                    </a>
+                                    <p>
+                                        主演:梅利莎·乔治 利亚姆·海姆斯沃斯 迈克尔·多曼 瑞秋·卡帕尼 艾玛·朗
+                                    </p>
+                                </li>
+                                <li>
+                                    <a class="img_wrap" title="悲剧的复仇女王" href="http://www.bibiqi.com/kongbu/jfnsrsjdsm/"
+                                    target="_blank">
+                                        <img width="120" height="160" alt="金福南杀人事件的始末" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/15_jfnsrsjdsm.jpg"
+                                        onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                        <span class="note_adds">
+                                            <em class="note_text">
+                                            </em>
+                                            <em class="note_icon">
+                                            </em>
+                                        </span>
+                                        <span class="name">
+                                            金福南杀人事件的始末
+                                        </span>
+                                    </a>
+                                    <p>
+                                        主演:徐英姬 池成媛 朴政学
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="list fr clearfix">
+                                <li>
+                                    <a title="一种奇怪的亲密联系" href="http://www.bibiqi.com/kongbu/kzlhamrcs/" target="_blank">
+                                        控制游戏/无人查收
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="兰伯特闹鬼事件数年前" href="http://www.bibiqi.com/kongbu/lef3/" target="_blank">
+                                        阴儿房3
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="隐藏的秘密" href="http://www.bibiqi.com/kongbu/sl59152/" target="_blank">
+                                        死路
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="古巴首部原创僵尸电影" href="http://www.bibiqi.com/kongbu/jiangshihuan/"
+                                    target="_blank">
+                                        僵尸胡安
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="史上最内涵AV之G点传说" href="http://www.bibiqi.com/kongbu/siwangluxiang2/"
+                                    target="_blank">
+                                        死亡录像2
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="大家庭的死亡之旅" href="http://www.bibiqi.com/kongbu/geshanyouyan/"
+                                    target="_blank">
+                                        隔山有眼1
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="变态医生和痴肥狂男聚头" href="http://www.bibiqi.com/kongbu/renti3/" target="_blank">
+                                        人体蜈蚣3
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="伦敦首席恶魔剃刀手" href="http://www.bibiqi.com/kongbu/lifashitaode/"
+                                    target="_blank">
+                                        理发师陶德
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="孤儿院里的怪事" href="http://www.bibiqi.com/kongbu/wuwangwo/" target="_blank">
+                                        毋亡我
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a title="获最佳恐怖场景奖" href="http://www.bibiqi.com/kongbu/guikushenhao/"
+                                    target="_blank">
+                                        鬼哭神嚎
+                                    </a>
+                                    <span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="pic960" style="margin-bottom:15px;">
+                        <div id="__QY_CL_Div_1447549907664_9602" height="90" width="960" url="http://c.qiyou.com/popup.php?t=1447549907664&amp;q=MjE4MTl8Mjk0ODB8OTl8MTJ8MHx8MTQ0NzU0OTkwNXw5MjNlNjA0ZjIwM2NjNGZhMjYyZTM1NzEyYzc0ZGI0NHwwfDEwMHwwfDA%3D&amp;w=960&amp;h=90&amp;logo=2"
+                        op="2" style="margin: 0px; display: inline-block; width: 960px; height: 90px; position: relative; padding: 0px; overflow: hidden;"
+                        isopen="1">
+                            <div style="display: none;">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="help">
+                        <a id="baocuo">
+                        </a>
+                        <header>
+                            已安装了快播播放器，在网页点播仍提示未安装？
+                        </header>
+                        <article>
+                            <dl>
+                                <dt>
+                                    出现这类问题可能有以下几种原因：
+                                </dt>
+                                <dd class="clearfix">
+                                    <em class="fl">
+                                        1.
+                                    </em>
+                                    <div class="fr">
+                                        由于您使用的浏览器属于多核心浏览器，如：搜狗、火狐等，
+                                        <span>
+                                            请使用兼容模式点播（点击高速切换），或者使用系统自带IE浏览器进行点播
+                                        </span>
+                                        。
+                                    </div>
                                 </dd>
-            </dl>
-            <dl class="cf">
-                <dt>按地区</dt>
-                <dd>
-                <span class="c on"><a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm">全部</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-hanguo---/">韩国</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-neidi---/">内地</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-xianggang---/">香港</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-taiwan---/">台湾</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-meiguo---/">美国</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-ouzhou---/">欧洲</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-faguo---/">法国</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-riben---/">日本</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-taiguo---/">泰国</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju-qita---/">其他</a></span>
+                                <dd class="clearfix">
+                                    <em class="fl">
+                                        2.
+                                    </em>
+                                    <div class="fr">
+                                        由于您的浏览器管理加载项中禁用了快播插件引起。解决办法：
+                                        <span>
+                                            打开IE浏览器，在菜单栏工具项→找到加载项管理器→"启用"或"禁用"加载项，并在弹出的对话框中启用所有以ShenZhen QVOD 开头的加载项。
+                                        </span>
+                                    </div>
                                 </dd>
-            </dl>
-            <dl class="cf">
-                <dt>按年份</dt>
-                <dd>
-                <span class="c on"><a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm">全部</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2015--/">2015</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2014--/">2014</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2013--/">2013</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2012--/">2012</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2011--/">2011</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2010--/">2010</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2009--/">2009</a></span>
-                                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--2008--/">2008</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/xiju--1--/">更早</a></span>
-                </dd>
-            </dl>
-            <dl class="star-list cf">
-                <dt>按明星</dt>
-                <dd>
-                <span class="c on"><a href="http://kan.sogou.com/dianying/----/">全部</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/6buE5rik/">黄渤</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5ZGo56eA5aic/">周秀娜</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/6JGb5LyY/">葛优</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5YiY5Lqm6I-y/">刘亦菲</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5p-z5bKp/">柳岩</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/6LW16JaH/">赵薇</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/546L5a6d5by6/">王宝强</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5p2o5bmC/">杨幂</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/6IyD5Yaw5Yaw/">范冰冰</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5b6Q5bOl/">徐峥</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5YiY5b635Y2O/">刘德华</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/6buE5pmT5piO/">黄晓明</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5ZGo5pif6amw/">周星驰</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5ZGo5ram5Y-R/">周润发</a></span>
-                                <span class="c "><a href="http://kan.sogou.com/dianying/star/5YiY5b635Y2O/">刘德华</a></span>
-                                                </dd>
-            </dl>
+                                <dd class="clearfix">
+                                    <em class="fl">
+                                        3.
+                                    </em>
+                                    <div class="fr">
+                                        由于浏览器加载项没有快播插件，请重新安装
+                                        <a href="http://dl.kuaibo.com/QvodSetupPlus5.exe" rel="nofollow">
+                                            最新版快播
+                                        </a>
+                                        。
+                                    </div>
+                                </dd>
+                                <dd class="clearfix">
+                                    <em class="fl">
+                                        4.
+                                    </em>
+                                    <div class="fr">
+                                        64位win7、vista系统请用非64位IE或其他32位浏览器点播（如360浏览器、世界之窗浏览器）。
+                                    </div>
+                                </dd>
+                            </dl>
+                            <p>
+                                如果以上方法均无效，请在
+                                <a href="http://www.bibiqi.com/gb-show" target="_blank">
+                                    求片留言
+                                </a>
+                                中反馈。
+                            </p>
+                        </article>
+                    </section>
+                    <section class="spe">
+                        <ul class="cm_ul clearfix">
+                            <li class="first row">
+                                <a class="img_wrap" title="都有那些好看的综艺节目" href="http://www.bibiqi.com/topic/844.html"
+                                target="_blank">
+                                    <img width="214" height="132" alt="都有那些好看的综艺节目" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55d98e8022a0b.jpg"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            都有那些好看的综艺节目
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="row">
+                                <a class="img_wrap" title="2015你都看了哪些好看的电视剧" href="http://www.bibiqi.com/topic/843.html"
+                                target="_blank">
+                                    <img width="214" height="132" alt="2015你都看了哪些好看的电视剧" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55c42022478e1.jpg"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            2015你都看了哪些好看的电视剧
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="row">
+                                <a class="img_wrap" title="2015都有那些好看的电影呢？" href="http://www.bibiqi.com/topic/842.html"
+                                target="_blank">
+                                    <img width="214" height="132" alt="2015都有那些好看的电影呢？" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/55c19bd81d17f.jpg"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            2015都有那些好看的电影呢？
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="first">
+                                <a class="img_wrap" title="2014好看的综艺：比比奇推荐的综艺节目" href="http://www.bibiqi.com/topic/841.html"
+                                target="_blank">
+                                    <img width="214" height="132" alt="2014好看的综艺：比比奇推荐的综艺节目" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/547943b670324.jpg"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            2014好看的综艺：比比奇推荐的综艺节目
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img_wrap" title="11月电影电视剧总结编:你都看了那些" href="http://www.bibiqi.com/topic/840.html"
+                                target="_blank">
+                                    <img width="214" height="132" alt="11月电影电视剧总结编:你都看了那些" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/54793a1657ffa.jpg"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            11月电影电视剧总结编:你都看了那些
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img_wrap" title="巨石强森电影作品集：摔角冠军到动作巨星" href="http://www.bibiqi.com/topic/839.html"
+                                target="_blank">
+                                    <img width="214" height="132" alt="巨石强森电影作品集：摔角冠军到动作巨星" src="./《绿色地狱》BD中英双字在线观看-恐怖-绿色地狱百度影音-比比奇电影网_files/544f4629e5368.JPG"
+                                    onerror="javascript:this.src=&#39;/Public/images/nophoto.jpg&#39;;">
+                                    <span class="note_adds">
+                                        <em class="note_bg">
+                                        </em>
+                                        <em class="note_name_text">
+                                            巨石强森电影作品集：摔角冠军到动作巨星
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <section class="r fr">
+                    <p class="title">
+                        <a class="fr" href="http://www.bibiqi.com/day/" target="_blank">
+                            更多&gt;&gt;
+                        </a>
+                        今日观影
+                    </p>
+                    <ul class="con">
+                        <li>
+                            <a href="http://www.bibiqi.com/day/125.html" target="_blank">
+                                《单身男女》年度恋爱大戏
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/124.html" target="_blank">
+                                《新娘大作战》翻拍不靠谱结果成烂片
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/123.html" target="_blank">
+                                《拥抱星星的月亮》刘晓雨不择手段
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/122.html" target="_blank">
+                                范冰冰《杨贵妃》封胸被咔嚓马震
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/121.html" target="_blank">
+                                《捉妖记》电影创造了哪些记录
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/120.html" target="_blank">
+                                【第69期】2014年12月有哪些电影上映:小编盘点
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/119.html" target="_blank">
+                                【第68期】2014年11月年底贺岁档、11月有那些电影
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/118.html" target="_blank">
+                                【第67期】巨石强森的好莱坞电影之路：摔角冠军到动作巨星
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/117.html" target="_blank">
+                                【第66期】一个人的武林:甄子丹王宝强秀功夫10月大片
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bibiqi.com/day/116.html" target="_blank">
+                                【第65期】好莱坞大片电影重磅巡礼：2015-2016大片抢先看
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <!--<iframe width="816" height="260" src="/detail/alimama.html" frameborder="0"
+            style="display:block;margin:15px auto 0px;overflow:hidden;"></iframe>-->
+            <section class="pic960" style="margin-top:15px;">
+            </section>
         </div>
-    </div>
-</div>
-<div class="add-wrapper aw-mt30">
-    <div class="left-tab-module ">
-        <div class="tab-bar mb15">
-            <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" class="on btn">热门电影</a>
-            <a href="http://kan.sogou.com/dianying/xiju---good-/" class=" btn">好评电影</a>
-            <a href="http://kan.sogou.com/dianying/xiju---new-/" class=" btn">最新电影</a>
-            <div class="line"></div>
-        </div>
-        <div class="tabcont tab-1">
-                        <div class="add-list-1">
-                <ul class="cf">
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180832207/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:58:16</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180832207/" target="_blank">横冲直撞好莱坞</a>
-                            </p>
-                            <p class="descr">暖萌佟大为喜感大爆棚</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6LW16JaH/" target="_blank">赵薇</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6buE5pmT5piO/" target="_blank">黄晓明</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5L2f5aSn5Li6/" target="_blank">佟大为</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E8%92%82%E5%A7%86%C2%B7%E8%82%AF%E5%BE%B7%E5%B0%94" target="_blank">蒂姆·肯德尔</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>4.6分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186270073&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
+        
+        <section class="pop_wrap">
+            <div id="login_wrap" class="login_wrap clearfix">
+                <div class="left fl">
+                    <h3>
+                        请登录比比奇网
+                    </h3>
+                    <form action="http://www.bibiqi.com/index.php?s=member-login" method="post">
+                        <div>
+                            <label>
+                                账号
+                            </label>
+                            <input class="text" name="username" type="text">
                         </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180832310/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(1)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:26:42</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180832310/" target="_blank">恋爱排班表</a>
-                            </p>
-                            <p class="descr">激情视频连锁反应 许晴上演小三诱惑</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6K645pm0/" target="_blank">许晴</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6L2m5pmT/" target="_blank">车晓</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5Y2O5bCR/" target="_blank">华少</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E4%B8%81%E4%B9%83%E7%AD%9D" target="_blank">丁乃筝</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>4.4分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186270173&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
+                        <div>
+                            <label>
+                                密码
+                            </label>
+                            <input class="text" name="password" type="password">
                         </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180805857/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(2)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:47:22</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180805857/" target="_blank">栀子花开</a>
-                            </p>
-                            <p class="descr">年度最高颜值大片</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5p2O5piT5bOw/" target="_blank">李易峰</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5byg5oWn6Zuv/" target="_blank">张慧雯</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5bC85Z2k/" target="_blank">尼坤</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E4%BD%95%E7%82%85" target="_blank">何炅</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>4.1分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186269172&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
+                        <div class="clearfix">
+                            <!--<input class="chkbox fl" name="login" value="1" type="checkbox"><label class="s fl">记住我的选择</label>-->
+                            <input class="submit fl" type="submit" value="登录">
                         </div>
+                    </form>
+                </div>
+                <div class="right fr">
+                    <h3>
+                        还没有账号?
+                    </h3>
+                    <div>
+                        <p>
+                            <a href="http://www.bibiqi.com/index.php?s=member-user_reg-url-~kongbu~lsdy81304~">
+                                注册一个账号
+                            </a>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                            <a class="smt_btn" href="http://www.bibiqi.com/index.php?s=member-qqreg-url-~kongbu~lsdy81304~">
+                            </a>
+                        </p>
                     </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180831266/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/20151008174819_645.jpg" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:28:53</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180831266/" target="_blank">一路向前</a>
-                            </p>
-                            <p class="descr">陈赫上演爆笑办公室恋情</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6ZmI6LWr/" target="_blank">陈赫</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5aea5pif5b2k/" target="_blank">姚星彤</a>
-                                                                <a href="http://kan.sogou.com/dianying/star//" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E4%BE%AF%E4%BA%AE" target="_blank">侯亮</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>3.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186268135&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180829512/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(3)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:33:49</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180829512/" target="_blank">疯狂外星人</a>
-                            </p>
-                            <p class="descr">谢耳朵献声Q萌外星人</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5ZCJ5aeGwrfluJXmo67mlq8/" target="_blank">吉姆·帕森斯</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6JW-5ZOI5aic/" target="_blank">蕾哈娜</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5Y-y6JKC5aSrwrfpqazkuIE/" target="_blank">史蒂夫·马丁</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E8%92%82%E5%A7%86%C2%B7%E7%BA%A6%E7%BF%B0%E9%80%8A" target="_blank">蒂姆·约翰逊</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/donghua----/" target="_blank">动画</a>
-                                                                <a href="http://kan.sogou.com/dianying/qihuan----/" target="_blank">奇幻</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>7.5分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186265200&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180830177/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(4)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:38:15</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180830177/" target="_blank">土豪520</a>
-                            </p>
-                            <p class="descr">吴镇宇苦追姚星彤 土豪求爱笑料百出</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5ZC06ZWH5a6H/" target="_blank">吴镇宇</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5aea5pif5b2k/" target="_blank">姚星彤</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ams5aSp5a6H/" target="_blank">马天宇</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9E%97%E7%88%B1%E5%8D%8E" target="_blank">林爱华</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>3.5分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186266501&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180826071/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(5)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:50:12</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180826071/" target="_blank">澳门风云2</a>
-                            </p>
-                            <p class="descr">发哥贱帅赌神再临</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5ZGo5ram5Y-R/" target="_blank">周润发</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5byg5a626L6J/" target="_blank">张家辉</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5YiY5ZiJ546y/" target="_blank">刘嘉玲</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E7%8E%8B%E6%99%B6" target="_blank">王晶</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%BC%A0%E6%95%8F" target="_blank">张敏</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/dongzuo----/" target="_blank">动作</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.8分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186258485&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180825226/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(6)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 02:06:25</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180825226/" target="_blank">咱们结婚吧</a>
-                            </p>
-                            <p class="descr">四对情侣的坎坷婚旅</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6auY5ZyG5ZyG/" target="_blank">高圆圆</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5aec5q2m/" target="_blank">姜武</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2O5pmo/" target="_blank">李晨</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%88%98%E6%B1%9F" target="_blank">刘江</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>6.1分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186257185&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180806163/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(7)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">标清 01:40:07</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180806163/" target="_blank">何以笙箫默</a>
-                            </p>
-                            <p class="descr">晓明爱上杨幂谱写真爱神话</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6buE5pmT5piO/" target="_blank">黄晓明</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2o5bmC/" target="_blank">杨幂</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5L2f5aSn5Li6/" target="_blank">佟大为</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9D%A8%E6%96%87%E5%86%9B" target="_blank">杨文军</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%BB%84%E6%96%8C" target="_blank">黄斌</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>3.6分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186256859&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180825048/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(8)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:29:20</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180825048/" target="_blank">将错就错</a>
-                            </p>
-                            <p class="descr">小沈阳痴恋熊黛林 王李丹妮秀胸</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/55Sw5Lqu/" target="_blank">田亮</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5bCP5rKI6Ziz/" target="_blank">小沈阳</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ZmI5bCP5pil/" target="_blank">陈小春</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E7%8E%8B%E5%AE%81" target="_blank">王宁</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>3.8分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186256873&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180824770/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(9)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:48:25</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180824770/" target="_blank">爸爸的假期</a>
-                            </p>
-                            <p class="descr">星爸相聚互爆糗事</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6YOt5rab/" target="_blank">郭涛</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6YOt5a2Q552_/" target="_blank">郭子睿</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p6X5b-X6aKW/" target="_blank">林志颖</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E7%8E%8B%E5%B2%B3%E4%BC%A6" target="_blank">王岳伦</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>8分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186256081&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180823248/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(10)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:37:20</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180823248/" target="_blank">大喜临门</a>
-                            </p>
-                            <p class="descr">李东学演绎岳父斗女婿</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/54yq5ZOl5Lqu/" target="_blank">猪哥亮</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p6X5b-D5aaC/" target="_blank">林心如</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2O5Lic5a2m/" target="_blank">李东学</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%BB%84%E6%9C%9D%E4%BA%AE" target="_blank">黄朝亮</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.5分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186253307&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180823144/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(11)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 02:12:07</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180823144/" target="_blank">重返20岁</a>
-                            </p>
-                            <p class="descr">杨子姗鹿晗祖孙致青春</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6bm_5pmX/" target="_blank">鹿晗</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5b2S5Lqa6JW-/" target="_blank">归亚蕾</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ZmI5p-P6ZyW/" target="_blank">陈柏霖</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%99%88%E6%AD%A3%E9%81%93" target="_blank">陈正道</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                <a href="http://kan.sogou.com/dianying/qihuan----/" target="_blank">奇幻</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>7.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186253188&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180822892/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/20150519184637_659.jpg" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:25:39</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180822892/" target="_blank">热血男人帮</a>
-                            </p>
-                            <p class="descr">陈翔携三大叔打造狗血天团</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6ZmI57-U/" target="_blank">陈翔</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6Iux6L6-/" target="_blank">英达</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5oi056uL5b-N/" target="_blank">戴立忍</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9F%A5%E6%85%95%E6%98%A5" target="_blank">查慕春</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.2分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186252791&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180818471/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(12)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:45:06</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180818471/" target="_blank">一路惊喜</a>
-                            </p>
-                            <p class="descr">郭采洁床压凤小岳 群星贺岁温暖除夕</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6JCn5pWs6IW-/" target="_blank">萧敬腾</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6YOt6YeH5rSB/" target="_blank">郭采洁</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5Yek5bCP5bKz/" target="_blank">凤小岳</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%87%91%E4%BE%9D%E8%90%8C%2C%E6%BD%98%E5%AE%89%E5%AD%90%2C%E7%AB%A0%E5%AE%B6%E7%91%9E%2C%E5%AE%8B%E8%BF%AA" target="_blank">金依萌,潘安子,章家瑞,宋迪</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.1分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=186250515&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180807329/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(13)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:27:47</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180807329/" target="_blank">奔跑吧兄弟</a>
-                            </p>
-                            <p class="descr">巨星云集再次奔跑</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5p2o6aKW/" target="_blank">杨颖</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/546L5a6d5by6/" target="_blank">王宝强</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2O5pmo/" target="_blank">李晨</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E8%83%A1%E7%AC%B3" target="_blank">胡笳</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%B2%91%E4%BF%8A%E4%B9%89" target="_blank">岑俊义</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/jilupian----/" target="_blank">纪录片</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>3.4分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184236633&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180807238/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(14)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:40:23</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180807238/" target="_blank">十万个冷笑话</a>
-                            </p>
-                            <p class="descr">空手接白刃最萌时光鸡</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6Zi_5p2w/" target="_blank">阿杰</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/55qH6LSe5a2j/" target="_blank">皇贞季</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5a6d5pyo5Lit6Ziz/" target="_blank">宝木中阳</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%8D%A2%E6%81%92%E5%AE%87" target="_blank">卢恒宇</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9D%8E%E5%A7%9D%E6%B4%81" target="_blank">李姝洁</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="http://kan.sogou.com/dianying/qihuan----/" target="_blank">奇幻</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>6.4分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184225546&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180806994/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(15)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:46:29</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180806994/" target="_blank">有种你爱我</a>
-                            </p>
-                            <p class="descr">江一燕郑恺上演夺子大战</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5rGf5LiA54eV/" target="_blank">江一燕</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6YOR5oG6/" target="_blank">郑恺</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5LqO56yR/" target="_blank">于笑</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9D%8E%E6%AC%A3%E8%94%93" target="_blank">李欣蔓</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>4.9分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184197176&vtype=1" pbtag="d5b10bf14e4ec2cc40c43947c57b3b41.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180806965/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(16)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:35:58</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180806965/" target="_blank">熊出没之雪岭熊风</a>
-                            </p>
-                            <p class="descr">狗熊岭百年不遇大雪</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5byg5Lyf/" target="_blank">张伟</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5byg56eJ5ZCb/" target="_blank">张秉君</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6LCt56yR/" target="_blank">谭笑</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E4%B8%81%E4%BA%AE" target="_blank">丁亮</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%88%98%E5%AF%8C%E6%BA%90" target="_blank">刘富源</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/donghua----/" target="_blank">动画</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>7.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184181245&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180806839/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(17)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 02:20:34</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180806839/" target="_blank">一步之遥</a>
-                            </p>
-                            <p class="descr">姜文葛优争议贺岁</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5aec5paH/" target="_blank">姜文</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6JGb5LyY/" target="_blank">葛优</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5ZGo6Z-1/" target="_blank">周韵</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%A7%9C%E6%96%87" target="_blank">姜文</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/yinyue----/" target="_blank">音乐</a>
-                                                                <a href="http://kan.sogou.com/dianying/dongzuo----/" target="_blank">动作</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>6.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184166649&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180806460/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(18)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:37:45</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180806460/" target="_blank">爸爸去哪儿2</a>
-                            </p>
-                            <p class="descr">星爸萌娃再聚首</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6buE56OK/" target="_blank">黄磊</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6buE5b-G5oWI/" target="_blank">黄忆慈</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5pu55qC8/" target="_blank">曹格</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E8%B0%A2%E6%B6%A4%E8%91%B5" target="_blank">谢涤葵</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9E%97%E5%A6%8D" target="_blank">林妍</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>4.5分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184140470&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180805859/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(19)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 02:03:06</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180805859/" target="_blank">暴走神探</a>
-                            </p>
-                            <p class="descr">神探阮经天对戏周冬雨</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6Ziu57uP5aSp/" target="_blank">阮经天</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5ZGo5Yas6Zuo/" target="_blank">周冬雨</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2o5a2Q5aeX/" target="_blank">杨子姗</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E7%BD%97%E5%8D%93%E7%91%B6" target="_blank">罗卓瑶</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/dongzuo----/" target="_blank">动作</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/xuanyi----/" target="_blank">悬疑</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=184081116&vtype=1" pbtag="d5b10bf14e4ec2cc40c43947c57b3b41.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180804128/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(20)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:34:43</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180804128/" target="_blank">我的早更女友</a>
-                            </p>
-                            <p class="descr">周迅佟大为演绎爱情</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5ZGo6L-F/" target="_blank">周迅</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5L2f5aSn5Li6/" target="_blank">佟大为</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ZKf5rGJ6Imv/" target="_blank">钟汉良</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%83%AD%E5%9C%A8%E5%AE%B9" target="_blank">郭在容</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.5分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183960636&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180804072/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(21)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:23:21</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180804072/" target="_blank">精武青春</a>
-                            </p>
-                            <p class="descr">吴千语求爱徐正曦 暴力少女功夫无敌</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5ZC05Y2D6K-t/" target="_blank">吴千语</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5b6Q5q2j5pum/" target="_blank">徐正曦</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/55ub5ZCb/" target="_blank">盛君</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%82%B1%E7%A4%BC%E6%B6%9B" target="_blank">邱礼涛</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="http://kan.sogou.com/dianying/dongzuo----/" target="_blank">动作</a>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>3.2分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183955408&vtype=1" pbtag="." target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180803593/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(22)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:43:13</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180803593/" target="_blank">男人不可以穷</a>
-                            </p>
-                            <p class="descr">陈伟霆黄宗泽爆笑比拼</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6buE5a6X5rO9/" target="_blank">黄宗泽</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ZmI5Lyf6ZyG/" target="_blank">陈伟霆</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6LCi5aSp5Y2O/" target="_blank">谢天华</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E9%92%9F%E6%BE%8D%E4%BD%B3" target="_blank">钟澍佳</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>6.1分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183914736&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180803345/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(23)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">标清 01:33:28</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180803345/" target="_blank">撒娇女人最好命</a>
-                            </p>
-                            <p class="descr">会撒娇的女人最好命</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5ZGo6L-F/" target="_blank">周迅</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6buE5pmT5piO/" target="_blank">黄晓明</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ZqL5qOg/" target="_blank">隋棠</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%BD%AD%E6%B5%A9%E7%BF%94" target="_blank">彭浩翔</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>6分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183893739&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180799059/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(24)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:58:00</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180799059/" target="_blank">心花路放</a>
-                            </p>
-                            <p class="descr">黄渤徐峥爆笑猎艳之旅</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/6buE5rik/" target="_blank">黄渤</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5b6Q5bOl/" target="_blank">徐峥</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6KKB5rOJ/" target="_blank">袁泉</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%AE%81%E6%B5%A9" target="_blank">宁浩</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>7分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183809367&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180801734/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(25)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">高清 01:53:08</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180801734/" target="_blank">单身男女2</a>
-                            </p>
-                            <p class="descr">古天乐高圆圆再续前缘</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5Y-k5aSp5LmQ/" target="_blank">古天乐</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2o5Y2D5ayF/" target="_blank">杨千嬅</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6auY5ZyG5ZyG/" target="_blank">高圆圆</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E6%9D%9C%E7%90%AA%E5%B3%B0" target="_blank">杜琪峰</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/juqing----/" target="_blank">剧情</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183751589&vtype=1" pbtag="7e39d373369b981c0cb229410e5e2676.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180801471/" target="_blank" class="i">
-                            <span class="super"></span>                            <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(26)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">超清 01:26:59</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180801471/" target="_blank">求爱大作战</a>
-                            </p>
-                            <p class="descr">另类求爱大作战</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5rKI6ZyH6L2p/" target="_blank">沈震轩</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6ZmI5aWC5LuB/" target="_blank">陈奂仁</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5byg5bu65aOw/" target="_blank">张建声</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%8F%B6%E5%BF%B5%E7%90%9B" target="_blank">叶念琛</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>4.3分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183707871&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                        <li>
-                    <div class="cell cf">
-                        <a href="http://kan.sogou.com/player/180797013/" target="_blank" class="i">
-                                                        <img src="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/link(27)" alt="">
-                            <span class="p-cover"></span>
-                            <i class="pi"></i>
-                            <p class="text_over">标清 01:35:08</p>
-                        </a>
-                        <div class="infor">
-                            <p class="tit">
-                                <a href="http://kan.sogou.com/player/180797013/" target="_blank">临时同居</a>
-                            </p>
-                            <p class="descr">郑秀文张家辉"同居"起底</p>
-                            <dl class="cf">
-                                <dt>主演：</dt>
-                                <dd>
-                                                                                                <a href="http://kan.sogou.com/dianying/star/5byg5a626L6J/" target="_blank">张家辉</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/6YOR56eA5paH/" target="_blank">郑秀文</a>
-                                                                <a href="http://kan.sogou.com/dianying/star/5p2o6aKW/" target="_blank">杨颖</a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>导演：</dt>
-                                <dd>
-                                 
-                                                                <a href="http://kan.sogou.com/search?keyword=%E5%8D%93%E9%9F%B5%E8%8A%9D" target="_blank">卓韵芝</a>
-                                                                <a href="http://kan.sogou.com/search?keyword=" target="_blank"></a>
-                                                                                                </dd>
-                            </dl>
-                            <dl class="cf">
-                                <dt>类型：</dt>
-                                <dd>
-                                                                <a href="./好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影_files/好看的喜剧电影大全_最新喜剧电影排行榜-搜狗电影.htm" target="_blank">喜剧</a>
-                                                                <a href="http://kan.sogou.com/dianying/aiqing----/" target="_blank">爱情</a>
-                                                                </dd>
-                            </dl>
-                            <dl class="commit cf">
-                                <dt>评分：</dt>
-                                <dd>
-                                <span>5分</span>
-                                </dd>
-                            </dl>
-                            <div class="btn-wrap">
-                                <a href="http://kan.sogou.com/epjump?vid=183971542&vtype=1" pbtag="d819349850ba15fecbbd4a169d407b75.dianying" target="_blank" class="btn"><i></i>立即播放</a>
-                            </div>
-                        </div>
-                    </div>
-                    </li>
-                                </ul></div>
-                        <!-- Paging -->
-            <div class="sub-pager-bar">
-        <span class="current prev">上一页</span>
-    	
-					<span class="current">1</span>
-							<a href="http://kan.sogou.com/dianying/xiju----2/">2</a>
-							<a href="http://kan.sogou.com/dianying/xiju----3/">3</a>
-							<a href="http://kan.sogou.com/dianying/xiju----4/">4</a>
-							<a href="http://kan.sogou.com/dianying/xiju----5/">5</a>
-							<span>...</span>
-							<a href="http://kan.sogou.com/dianying/xiju----214/">214</a>
-				
-	    <a href="http://kan.sogou.com/dianying/xiju----2/" class="next">下一页</a>
-	</div>
-        </div>
-    </div>
-</div>
-@include('layouts.footer')
+                </div>
+            </div>
+        </section>
+        
+        <footer class="g_footer">
+            <p>
+                本网站提供的最新电影，电视剧和动漫资源均系收集于各大视频网站，本网站只提供web页面服务，并不提供影片资源存储，也不参与录制、上传
+            </p>
+            <p>
+                若本站收录的节目无意侵犯了贵司版权，请发送邮件到bibiqi.com@gmail.com，我们会及时处理和回复，谢谢
+            </p>
+            <p>
+                Copyright @2003-2011 比比奇 www.bibiqi.com ICP备2010111号
+            </p>
+            <p id="g_footer_links">
+                <a href="http://www.bibiqi.com/gb-show.html" title="求片留言">
+                    求片留言
+                </a>
+                <em>
+                    |
+                </em>
+                <a href="http://www.bibiqi.com/help/" title="百度影音帮助">
+                    百度影音帮助
+                </a>
+                <em>
+                    |
+                </em>
+                <a href="http://www.bibiqi.com/allmovie.html" title="网站地图">
+                    网站地图
+                </a>
+                <em>
+                    |
+                </em>
+                <a href="http://www.bibiqi.com/sitemap.xml" title="">
+                    百度地图
+                </a>
+                <em>
+                    |
+                </em>
+            </p>
+        </footer>
+    </body>
+</html>

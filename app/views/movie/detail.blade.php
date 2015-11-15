@@ -84,8 +84,6 @@
     <div class="left-tab-module js-tab-module mt20" id="recommend_module">
        <div class="tab-bar">
             <a href="http://kan.sogou.com/player/180825226/#" class="on btn js-tab-btn" id="bar_guess">猜你喜欢</a>
-            <!--<a href="http://kan.sogou.com/player/180825226/#" class="btn js-tab-btn" id="bar_actor">同主演作品</a>
-            <a href="http://kan.sogou.com/player/180825226/#" class="btn js-tab-btn" id="bar_director">同导演作品</a>-->
             <div class="line">
             </div>
         </div>
@@ -146,106 +144,10 @@
         </ul>
     </div>
     
-    <!--
-    <div class="tab-content mt20 video-scroll high-scroll js-tab-content" style="display:none;" id="content_actor">
-    <ul class="list cf" style="width: 10000px;">
-        <li class="video-item high-video-item">
-            <a class="img-link hover-item" href="http://kan.sogou.com/player/180826072/" target="_blank">
-                 <img src="./咱们结婚吧在线观看_咱们结婚吧电影高清完整版-搜狗电影_files/20150717115824_856.jpg" alt="">
-                <span class="p-cover"></span>
-                <i class="pi"></i>
-                <span class="op-cover">高清 01:45:55</span>
-            </a>
-            <a href="http://kan.sogou.com/player/180826072/" target="_blank" class="title">我是女王</a>
-            <span class="type">爱情</span>
-        </li>
-    </ul>
-    <a href="" class="left-btn png-fix"></a>
-    <a href="" class="right-btn png-fix"></a>
-    </div>
-    
-    <div class="tab-content mt20 video-scroll high-scroll js-tab-content" style="display:none;" id="content_director">
-    <ul class="list cf" style="width: 10000px;">
-        <li class="video-item high-video-item">
-            <a class="img-link hover-item" href="http://kan.sogou.com/player/94632/" target="_blank">
-                <img src="./咱们结婚吧在线观看_咱们结婚吧电影高清完整版-搜狗电影_files/link(12)" alt="">
-                <span class="p-cover"></span>
-                <i class="pi"></i>
-                <span class="op-cover">高清 01:32:01</span>
-            </a>
-            <a href="http://kan.sogou.com/player/94632/" target="_blank" class="title">即日启程</a>
-            <span class="type">喜剧/剧情</span>
-        </li>
-    </ul>
-    </div>
-    -->
+
     
     </div>
-        <!-- 预告·花絮、剧照 -->
-        <!--
-    <div class="left-tab-module mt20 js-tab-module" id="pianhua">
-        <div class="tab-bar">
-        <a href="http://kan.sogou.com/player/180825226/#" class="on btn js-tab-btn">预告·花絮</a>
-        <a href="http://kan.sogou.com/player/180825226/#" class=" btn js-tab-btn">剧照</a>
-        <div class="line">
-    </div>
-    </div>
-    
-    <div class="tab-content mt20 video-scroll lower-scroll js-tab-content" id="pianhua_video" pbflag="wc_0_预告花絮">
-        <ul class="list cf" style="width: 10000px;">
-        <li class="video-item scroll-item">
-        <a rel="nofollow" class="img-link" href="http://www.iqiyi.com/w_19rt9a905p.html?ptag=vsogou" target="_blank">
-        <img src="./咱们结婚吧在线观看_咱们结婚吧电影高清完整版-搜狗电影_files/link(14)" alt="">
-        <span class="p-cover"></span>
-        <i class="pi"></i>
-        <span class="gri-cover cf">
-        <i class="site">爱奇艺</i>
-        <i class="time">4:22</i>
-        </span>
-        </a>
-        <a rel="nofollow" href="http://www.iqiyi.com/w_19rt9a905p.html?ptag=vsogou" target="_blank" class="title">【搞笑趣闻精选】解说《咱们结婚吧》穿帮镜头 何仙姑?</a>
-        </li>   
-        </ul>
-        <a href="http://kan.sogou.com/player/180825226/#" class="left-btn png-fix"></a>
-        <a href="http://kan.sogou.com/player/180825226/#" class="right-btn png-fix"></a>
-    </div>
-    <div class="tab-content mt20 video-scroll lower-scroll juzhao-scroll js-tab-content" style="display:none" id="pianhua_photo" pbflag="wc_0_剧照">
-        <ul class="list cf" style="width: 10000px;">
-        <li class="juzhao-item video-item">
-        <a rel="nofollow" href="http://movie.douban.com/photos/photo/2223385606/" target="_blank">
-        <img src="./咱们结婚吧在线观看_咱们结婚吧电影高清完整版-搜狗电影_files/link(34)" alt="">
-        </a>
-        </li>
-        </ul>
-        <a href="http://kan.sogou.com/player/180825226/#" class="left-btn png-fix"></a>
-        <a href="http://kan.sogou.com/player/180825226/#" class="right-btn png-fix"></a>
-    </div>
-    </div>
-        -->
-    <!-- 豆瓣影评 -->
-    <!--
-    <div class="left-tab-module left-mm-module mt20" id="reviews">
-        <div class="tab-bar">
-            <span class="t">豆瓣影评</span>
-            <div class="line"></div>
-            <a rel="nofollow" href="http://movie.douban.com/subject/26140241/reviews" target="_blank" class="more"></a>
-        </div>
-        <div class="tab-content mt20">
-            <div class="douban-item">
-                <div class="title">
-                <i class="dot"></i>
-                <a rel="nofollow" href="http://movie.douban.com/review/7434380/" target="_blank" class="t">直男癌导演太可怕了</a>
-                <span class="star star1"></span>
-                </div>
-                <p class="commit">文/公元1874《咱们结婚吧》来源于去年热播的同名剧集。其实电视剧拍电影这事，国外干过很多次了。汤姆·克鲁斯的《碟中谍》就是翻拍的电视剧，甚至比原版远远有名；《性感都市》在小荧屏上火了，上了大银幕也捞...<a rel="nofollow" href="http://movie.douban.com/review/7434380/" target="_blank" class="btn">(120回应)</a></p>
-                <div class="info">
-                <span class="d">2015-10-10</span>
-                <span class="like">807喜欢</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
+
     </div>
     
      <!--右侧内容-->  
@@ -315,35 +217,7 @@
                 </ul>
             </div> 
         </div>
-        <!-- 分类Tab
-        <div class="right-tab-m mt30">
-            <a target="_blank" href="/news" class="yahei btn tab-btn on">最新</a>
-            <a target="_blank" href="/category/kehuan" class="yahei btn tab-btn ">科幻</a>
-            <a target="_blank" href="/category/aiqing" class="yahei btn tab-btn ">爱情</a>
-            <a target="_blank" href="/category/ganren" class="yahei btn tab-btn ">感人</a>
-        </div>
-        <div class="hr20"></div>
-        <dl class="type-area ta-border">
-            <dt>按类型</dt>
-            <dd class="mt10">
-                <ul class="cf">
-                    <li>
-                        <a target="_blank" href="/category/kehuan">爱情</a>
-                    </li>
-                </ul>
-            </dd>                
-        </dl>
-        <dl class="type-area">
-            <dt>按地区</dt>
-            <dd class="mt10">
-                <ul class="cf">
-                    <li>
-                        <a target="_blank" href="/category/kehuan">韩国</a>
-                    </li>
-                </ul>
-            </dd>                
-        </dl>
-        </div> -->
+
 	</div>
     
     
