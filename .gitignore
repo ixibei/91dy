@@ -1,6 +1,11 @@
 app/storage
+
 public/uploadFile
+
 public/uploads
+
 .DS_Store
+
 .git
+
 .idea
