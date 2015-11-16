@@ -18,9 +18,20 @@ class bibiqi extends baseCollect{
      * 获取要采集的信息
      */
     public function getData(){
-        $this->html = file_get_html($this->url);
+        for($i=1; $i<546; $i++){
+            if($i == 1){
+                $this->pages($this->url);
+            } else {
+                $url = $this->url.'index_1_1_'.$i.'.html';
+                $this->pages($this->url);
+            }
+        }
+    }
+
+    public function pages($url){
+        $this->html = file_get_html($url);
         if(!$this->html) {
-            $this->message = date('Y-m-d H:i:s').' 无法获取 '.$this->url." 信息！\r\n";
+           return '';
         } else {
             $bd = $this->html->find('ul.list',0);
             foreach ($bd->find('li') as $key=>$val) {
@@ -137,7 +148,6 @@ class bibiqi extends baseCollect{
         $val = "'{$data['img']}','{$data['name']}','{$data['content']}','{$intro}','{$data['country_id']}','1',";
         $val .= "'{$data['url']}','{$data['release_time']}','$addTime','1','{$data['score']}','{$data['director_id']}','{$md5}'";
         $sql = "insert into m_movie ($field) values($val)";
-        echo $sql;exit;
         $this->db->query($sql);
     }
 

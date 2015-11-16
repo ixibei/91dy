@@ -17,7 +17,7 @@ class mysql {
 
     public function run() {
         $this->link = @mysql_connect($this->dbhost, $this->user, $this->passwd);
-        if (!$this->link) die('不能连接mysql');
+        if (!$this->link) die('cant connect mysql');
         mysql_query('set names utf8');
     }
 

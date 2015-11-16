@@ -10,7 +10,8 @@ class baseCollect{
     public $db = '';
 
     public function __construct(){
-        $password = $_SERVER['HTTP_HOST'] == 'www.91dy.me' ? 'x15855411151' : '';
+        //$password = '';
+        $password = 'x15855411151';
         $this->db = new mysql('localhost','root',$password,'movie');
     }
 
@@ -54,7 +55,9 @@ class baseCollect{
         if(!preg_match('/\/([^\/]+\.[a-z]{3,4})$/i',$path,$matches)) die('Use image please');
         $date = date('Ym');
         $savePath = '../uploads/movie/'.$date.'/';
-        if(!is_dir($savePath)) $isTrue = mkdir($savePath,0777,true);
+        if(!is_dir($savePath)) {
+            $isTrue = mkdir($savePath,0777,true);
+        }
         $imageName = $savePath.$prefix.strToLower($matches[1]);
         if(file_exists($imageName)) return $imageName;
         if(!function_exists('curl_init')){
