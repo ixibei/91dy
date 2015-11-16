@@ -21,7 +21,7 @@
       <div class="tt-bar"> <a target="_blank" href="/category/kehuan/" class="tt">科幻大片</a> <a target="_blank" href="/category/kehuan/" class="mm">更多</a> </div>
       <div class="tele-v2-module cf">
       	@foreach($category5 as $val)
-        <div class="tele-bw-item tele-bw-item-fix"> <a href="movie/{{ $val->id }}.html" target="_blank" class="i"> <img src="{{ $val->img }}" alt="{{ $val->title }}"> <span class="p-cover"></span> <i class="pi png-fix"></i>
+        <div class="tele-bw-item tele-bw-item-fix"> <a href="{{ URL::ROUTE('movieDetail',[$val->id])  }}" target="_blank" class="i"> <img src="{{ $val->img }}" alt="{{ $val->title }}"> <span class="p-cover"></span> <i class="pi png-fix"></i>
           <p class="text_over">{{ $val->play_time }}</p>
           </a>
           <p class="nn"> <a href="movie/{{ $val->id }}.html" target="_blank">{{ $val->name }}</a> </p>

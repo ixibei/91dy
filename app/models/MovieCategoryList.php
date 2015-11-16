@@ -18,7 +18,8 @@ class MovieCategoryList extends Eloquent {
 		$return = array();
 		if($data){
 			foreach($data as $val){
-				$return[] = Movie::where('id','=',$val->movie_id)->first();
+				$movie = Movie::where('id','=',$val->movie_id)->first();
+				if($movie) $return[] = $movie;
 			}
 		}
 		return $return;

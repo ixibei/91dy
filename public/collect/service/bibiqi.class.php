@@ -23,7 +23,7 @@ class bibiqi extends baseCollect{
                 $this->pages($this->url);
             } else {
                 $url = $this->url.'index_1_1_'.$i.'.html';
-                $this->pages($this->url);
+                $this->pages($url);
             }
         }
     }
