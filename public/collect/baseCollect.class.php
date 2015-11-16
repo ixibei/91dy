@@ -10,7 +10,7 @@ class baseCollect{
     public $db = '';
 
     public function __construct(){
-        $password = $_SERVER['HTTP_HOST'] != 'www.91dy.com' ? 'x15855411151' : '';
+        $password = $_SERVER['HTTP_HOST'] == 'www.91dy.me' ? 'x15855411151' : '';
         $this->db = new mysql('localhost','root',$password,'movie');
     }
 
