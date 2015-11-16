@@ -89,7 +89,8 @@ class bibiqi extends baseCollect{
         //类型分类
         $obj = $detailObj->find('li',2);
         $typeObj = $obj->find('p',0);
-        $return['category'] = $this->existField($typeObj->innertext,'m_movie_category');
+        $category = mb_substr(strip_tags($typeObj->innertext),0,2,'utf-8');
+        $return['category'] = $this->existField($category,'m_movie_category');
         //地区 国家
         $obj = $detailObj->find('li',3);
         $countryObj = $obj->find('p',0);
@@ -131,7 +132,7 @@ class bibiqi extends baseCollect{
      * @return mixed
      */
     public function existField($val,$table){
-        $val=strip_tags($val);
+        $val = strip_tags($val);
         $sql = "select id from $table where name='{$val}'";
         $data = $this->db->get_one($sql);
         if(!$data['id']){
