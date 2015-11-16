@@ -10,8 +10,8 @@ class baseCollect{
     public $db = '';
 
     public function __construct(){
-        //$password = '';
-        $password = 'x15855411151';
+        $password = '';
+        //$password = 'x15855411151';
         $this->db = new mysql('localhost','root',$password,'movie');
     }
 

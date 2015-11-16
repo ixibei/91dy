@@ -131,6 +131,7 @@ class bibiqi extends baseCollect{
      * @return mixed
      */
     public function existField($val,$table){
+        $val=strip_tags($val);
         $sql = "select id from $table where name='{$val}'";
         $data = $this->db->get_one($sql);
         if(!$data['id']){
@@ -149,6 +150,19 @@ class bibiqi extends baseCollect{
         $val .= "'{$data['url']}','{$data['release_time']}','$addTime','1','{$data['score']}','{$data['director_id']}','{$md5}'";
         $sql = "insert into m_movie ($field) values($val)";
         $this->db->query($sql);
+        $id = $this->db->getLastId();
+        //查询相关的明星
+        if($data['mingxing']){
+            foreach($data['mingxing'] as $val){
+                $sql = "insert into m_movie_person values(null,$val,$id)";
+                $this->db->query($sql);
+            }
+        }
+        //插入对应的分类
+        if($data['category']){
+            $sql = "insert into m_movie_category_list values(null,$id,{$data['category']})";
+            $this->db->query($sql);
+        }
     }
 
     /*
