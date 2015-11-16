@@ -11,7 +11,7 @@ class MovieCategoryController extends BaseController {
         $data['param'] = [$country,$year,$mingxing,$orderBy,$currentPage];
         $data['catList'] = MovieCategory::where('status','=',1)->orderBy('sort','desc')->orderBy('id','desc')->get();//分类列表
         $data['country'] = Country::where('status','=',1)->orderBy('sort','desc')->orderBy('id','desc')->get();//国家列表
-        $data['mingxing'] = Person::where('status','=',1)->where('is_director','=',0)->orderBy('sort','desc')->orderBy('id','desc')->get();//明星列表
+        $data['mingxing'] = Person::where('status','=',1)->where('is_director','=',0)->orderBy('sort','desc')->orderBy('id','desc')->take(20)->get();//明星列表
         $data['catInfo'] = MovieCategory::where('url','=',$url)->firstOrFail()->toArray();
         $detail = MovieCategoryList::getMovie($data['catInfo']['id'],$country,$year,$mingxing,$orderBy,$currentPage);//多重条件查询
         $data['count'] = $detail['count'];
@@ -26,7 +26,7 @@ class MovieCategoryController extends BaseController {
         $data['param'] = [$country,$mingxing,$orderBy,$currentPage];
         $data['catList'] = MovieCategory::where('status','=',1)->orderBy('sort','desc')->orderBy('id','desc')->get();//分类列表
         $data['country'] = Country::where('status','=',1)->orderBy('sort','desc')->orderBy('id','desc')->get();//国家列表
-        $data['mingxing'] = Person::where('status','=',1)->where('is_director','=',0)->orderBy('sort','desc')->orderBy('id','desc')->get();//明星列表
+        $data['mingxing'] = Person::where('status','=',1)->where('is_director','=',0)->orderBy('sort','desc')->orderBy('id','desc')->take(20)->get();//明星列表
         $data['catInfo'] = ['name'=>'最新'];
         $detail = MovieCategoryList::getNewsMovie($country,$mingxing,$orderBy,$currentPage);//多重条件查询
         $data['count'] = $detail['count'];
