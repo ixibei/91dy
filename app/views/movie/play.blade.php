@@ -162,7 +162,7 @@
 	<div class="wrapper">
     	<!--not this-->
 		<section class="pic960" style="padding-top:3px; padding-bottom:15px;">
-			<script type="text/javascript">BAIDU_CLB_fillSlot("933196");</script><div id="BAIDU_DUP_wrapper_933196_0"></div><script charset="utf-8" src="http://dup.baidustatic.com/painter/clb/fixed7o.js"></script><script type="text/javascript" src="http://cpc.88rpg.net/js/c/15990_3001.js"></script><iframe src="http://cpc.88rpg.net/html/click/15990_3001.html" width="960" height="90" marginheight="0" marginwidth="0" scrolling="no" frameborder="0"></iframe>
+        	<!--advertisment-->
         </section>
         <!--not this-->
         
@@ -171,25 +171,13 @@
 				<div class="title clearfix">
 					<a class="showlist fr" id="showlist" href="javascript:;">选集</a>
 					<a class="prev fr" href="javascript:;">下一集</a>
-					    <a class="next fr" href="/omdsj/hszrdlj/player-1-3.html">上一集</a>					<h1>正在播放 <a href="/omdsj/hszrdlj/" target="_blank">行尸走肉第六季</a> 第05集</h1>
+					<a class="next fr" href="/omdsj/hszrdlj/player-1-3.html">上一集</a>					
+                    <h1>正在播放 <a href="/omdsj/hszrdlj/" target="_blank">{{ $detail->name }}</a></h1>
 				</div>
                 <!--play url-->
 				<div id="play_wrap" class="play_wrap">
-                	<script language="javascript">
-                var XgPlayer = {
-                    'Url': "ftp://pub:pub@.domain.com:20320/421/00.mp4",  //本集播放地址，需更改
-                    'NextcacheUrl': "ftp://pub:pub@.dom ain.com:20320/421/01.mp4",  //缓冲下一集，需更改
-                    'LastWebPage': '',
-                    'NextWebPage': "http://ww w.xx.co m/xxx.html",  //下一集播放页面地址，需更改
-                    'Buffer': 'http://player.xigua.com/xg_loa ding.html',  // 播缓冲AD，需更改
-                    'Pase': 'http://player.xigua.com/xg_loading.html',  // 暂停AD，需更改
-                    'Width': 680,   // 播放器显示宽度
-                    'Height': 490,  // 播放器显示高度
-                    'Second': 8,  // 缓冲时间
-                    "Installpage":'http://static.xi gua.com/installpage.html'
-                };
-                document.write('<script language="javascript" src="http://static.xigua.com/xiguaplayer.js" charset="utf-8"><\/script>');
-            </script> 
+				<?php $player = Type::where('id','=',$detail->type)->pluck('embed');?>
+                {{ str_replace('$URL$',$detail->url,$player) }}
 				</div>
                 <!--play url-->
 				<div class="bottom clearfix">
@@ -201,52 +189,17 @@
 				</div>
 			</div>
 			<div class="r fr clearfix">
-				<section class="pic300 fr" style="height:250px;"><script>CNZZ_SLOT_RENDER('261405');</script><script src="http://c.andmejs.com/view.php?uid=21819&amp;op=1"></script><div id="__QY_CL_Div_1447595584970_19" height="250" width="300" url="http://c.qiyou.com/popup.php?t=1447595584970&amp;q=MjE4MTl8Mjk0ODB8OTl8MTJ8MHx8MTQ0NzU5NTU4NHxhMTk2NmM2ZTYxZDc0NzU2ZmJiMzg3ZTFhOGJmMTg2MnwwfDEwMHwwfDA%3D&amp;w=300&amp;h=250&amp;logo=2" op="1" style="margin: 0px; display: inline-block; width: 300px; height: 250px; position: relative; padding: 0px; overflow: hidden;" isopen="1"><div style="display: none;"></div>
-<iframe src="http://c.qiyou.com/popup.php?t=1447595584970&amp;q=MjE4MTl8Mjk0ODB8OTl8MTJ8MHx8MTQ0NzU5NTU4NHxhMTk2NmM2ZTYxZDc0NzU2ZmJiMzg3ZTFhOGJmMTg2MnwwfDEwMHwwfDA%3D&amp;w=300&amp;h=250&amp;logo=2&amp;attach_var=" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true" width="300" height="250" style="width: 300px; height: 250px; margin: 0px; border: 0px;"></iframe></div>
-</section>
-				<section class="pic300 fr" style="height:250px;"><script>CNZZ_SLOT_RENDER('261406');</script><script type="text/javascript" src="http://cpc.88rpg.net/js/c/15990_3000.js"></script><iframe src="http://cpc.88rpg.net/html/click/15990_3000.html" width="300" height="250" marginheight="0" marginwidth="0" scrolling="no" frameborder="0"></iframe>
-</section>
-                <div class="playlist c" id="playlist">
-                    <a class="player pngFix curr" href="javascript:;">西瓜影音</a>
-						<table>
-								
-									<tbody><tr><td>
-                                        <a class="curr" href="/omdsj/hszrdlj/player-1-4.html">第05集</a></td>
-									<td>
-                                    <a class="" href="/omdsj/hszrdlj/player-1-3.html">第04集</a>                                    </td></tr>
-								
-									<tr><td>
-                                        <a class="" href="/omdsj/hszrdlj/player-1-2.html">第03集</a></td>
-									<td>
-                                    <a class="" href="/omdsj/hszrdlj/player-1-1.html">第02集</a>                                    </td></tr>
-								
-									<tr><td>
-                                        <a class="" href="/omdsj/hszrdlj/player-1-0.html">第01集</a></td>
-									<td>
-                                                                        </td></tr>
-													</tbody></table><a class="player pngFix " href="javascript:;">吉吉影音</a>
-						<table style="display:none">
-								
-									<tbody><tr><td>
-                                        <a class="" href="/omdsj/hszrdlj/player-0-4.html">第05集</a></td>
-									<td>
-                                    <a class="" href="/omdsj/hszrdlj/player-0-3.html">第04集</a>                                    </td></tr>
-								
-									<tr><td>
-                                        <a class="" href="/omdsj/hszrdlj/player-0-2.html">第03集</a></td>
-									<td>
-                                    <a class="" href="/omdsj/hszrdlj/player-0-1.html">第02集</a>                                    </td></tr>
-								
-									<tr><td>
-                                        <a class="" href="/omdsj/hszrdlj/player-0-0.html">第01集</a></td>
-									<td>
-                                                                        </td></tr>
-													</tbody></table>				</div>
+				<section class="pic300 fr" style="height:250px;">
+                广告
+                </section>
+				<section class="pic300 fr" style="height:250px;">
+                广告
+                </section>
 			</div>
 		</section>
         
         <!--not this-->
-		<section class="pic960" style="padding-top:18px;"><script>CNZZ_SLOT_RENDER('261617');</script><script type="text/javascript" charset="gbk" src="http://js.adm.cnzz.net/appgcm.php?sid=261617&amp;fn=CNZZ_AD_RSLOT&amp;width=1366&amp;height=768&amp;time=1447595585024&amp;domain=&amp;referer=&amp;href=http%3A%2F%2Fwww.bibiqi.com%2Fomdsj%2Fhszrdlj%2Fplayer-1-4.html"></script></section>
+		
         <!--not this-->
 	</div>
 </section>
