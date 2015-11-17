@@ -148,8 +148,8 @@ class bibiqi extends baseCollect{
     protected function insertMysql($data){
         $md5 = md5($data['url']);
         $sql = "select id from m_movie where md5='{$md5}'";
-        $data = $this->db->get_one($sql);
-        if($data['id']) return;
+        $oldData = $this->db->get_one($sql);
+        if($oldData['id']) return;
 
         $field = 'img,name,content,intro,country_id,type,url,release_time,add_time,status,score,director_id,md5';
         $intro = mb_substr(strip_tags($data['content']),0,120,'utf-8');
