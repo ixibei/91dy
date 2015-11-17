@@ -205,11 +205,12 @@
 </section>
 
 
-        
+       
         
         <div class="p_play wrapper">
             <div class="sub clearfix">
                 <div class="l fl">
+ 					@if(isset($newsMovie[0]))               
                     <section class="rec">
                         <div class="content clearfix type2" style="padding-bottom:0px;">
                             <div class="first special fl">
@@ -254,6 +255,7 @@
                             </ul>
                         </div>
                     </section>
+                    @endif
                     <section class="pic960" style="margin-bottom:15px;">
                         <div id="__QY_CL_Div_1447549907664_9602" height="90" width="960" url="http://c.qiyou.com/popup.php?t=1447549907664&amp;q=MjE4MTl8Mjk0ODB8OTl8MTJ8MHx8MTQ0NzU0OTkwNXw5MjNlNjA0ZjIwM2NjNGZhMjYyZTM1NzEyYzc0ZGI0NHwwfDEwMHwwfDA%3D&amp;w=960&amp;h=90&amp;logo=2"
                         op="2" style="margin: 0px; display: inline-block; width: 960px; height: 90px; position: relative; padding: 0px; overflow: hidden;"
@@ -361,7 +363,7 @@
             <div id="login_wrap" class="login_wrap clearfix">
                 <div class="left fl">
                     <h3>
-                        请登录比比奇网
+                        请登录91电影网
                     </h3>
                     <form action="http://www.91dy.me/index.php?s=member-login" method="post">
                         <div>
