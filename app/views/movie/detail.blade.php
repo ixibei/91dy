@@ -87,7 +87,7 @@
                 </div>
             </div>
     
-   			<div class="tab-content mt20 video-scroll high-scroll js-tab-content" id="content_guess">
+   			<div class="tab-content mt20 video-scroll high-scroll js-tab-content" id="content_guess" style="overflow:auto; height:auto;">
                 {{ $detail->content }}
    			</div>
 	    </div>
@@ -146,7 +146,7 @@
             </div>
             <div class="list-rank">
             <ul>
-				@foreach(MovieCategoryList::select('M.name','M.id','M.score')->whereRaw('category_id = '.$info->id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.hits','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)
+				@foreach(MovieCategoryList::select('M.name','M.id','M.score')->whereRaw('category_id = '.$info->id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.hits','desc')->groupBy('M.id')->take(12)->get() as $key=>$val)
                 <li class="cf">
                 <span class="num @if($key<3)t3@endif">{{ $key+1 }}</span>
                 <a class="l" target="_blank" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}">{{ $val->name }}</a>
@@ -167,7 +167,7 @@
             </div>
             <div class="list-rank">
                 <ul>
-					@foreach(MovieCategoryList::select('M.name','M.id','M.score')->whereRaw('category_id = '.$info->id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.hits','desc')->groupBy('M.id')->take(10)->get() as $key=>$val)                <li class="cf">
+					@foreach(MovieCategoryList::select('M.name','M.id','M.score')->whereRaw('category_id = '.$info->id,array())->leftJoin('m_movie as M','M.id','=','m_movie_category_list.movie_id')->orderBy('M.hits','desc')->groupBy('M.id')->take(12)->get() as $key=>$val)                <li class="cf">
                 <span class="num @if($key<3)t3@endif">{{ $key+1 }}</span>
                 <a class="l" target="_blank" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}">{{ $val->name }}</a>
                 <a target="_blank" href="{{ URL::ROUTE('movieDetail',[$val->id]) }}" class="d">{{ $val->score }}</a>
@@ -187,7 +187,7 @@
             </div>
             <div class="dot-rank">
                 <ul>
-                	@foreach(News::orderBy('id','desc')->take(3)->get() as $val)
+                	@foreach(News::orderBy('id','desc')->take(12)->get() as $val)
                     <li class="cf"></li>
                     <li class="cf">
                     	<span class="dot"></span><a href="{{ URL::ROUTE('articleDetail',[$val->id]) }}" target="_blank">{{ $val->newstitle }}</a>

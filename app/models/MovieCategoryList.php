@@ -39,7 +39,7 @@ class MovieCategoryList extends Eloquent {
 		$orderBy = $orderBy == 1 ? 'hits' : ($orderBy == 2 ? 'score' : 'release_time');
 		$start = ($currentPage-1)*$num;
 		$field = 'M.name,M.release_time,M.id,M.img,M.play_time,M.intro,M.title,M.director_id,M.score,P.name as director';
-		$where = 'L.category_id='.$category_id;
+		$where = 'M.id!="" and L.category_id='.$category_id;
 		$leftJoin = 'left join m_movie as M on L.movie_id=M.id left join m_person as P on P.id=M.director_id';
 		$orderBy = 'order by '.$orderBy.' desc';
 		$data['breadcrumbs'] = [];

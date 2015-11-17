@@ -64,7 +64,6 @@
             </dl>
         </div>
     </div>
-    
 </div>
 <div class="add-wrapper aw-mt30">
     <div class="left-tab-module ">
@@ -128,6 +127,7 @@
                 @endforeach
                 </ul>
       	    </div>
+            
             <!-- Paging -->
 			{{ $pages }}
         </div>

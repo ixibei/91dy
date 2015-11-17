@@ -48,7 +48,7 @@ img {display: block;border: 0;}
 .row-left, .row-left .area {width: 860px;}
 .row-left{margin-bottom: 20px;*+padding-bottom: 20px;_padding-bottom: 0;}
 .row-right{width: 320px;}
-
+body .goon{overflow:auto;}
 .mt10{margin-top: 10px;}.mt20{margin-top: 20px;}.mt30{margin-top: 30px;}.mt60{margin-top: 60px;}
 .txt-overflow {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 

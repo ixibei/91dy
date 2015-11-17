@@ -3,7 +3,6 @@ class bibiqi extends baseCollect{
 
     private $url = 'http://www.bibiqi.com/dianying/all/';//采集的网址
     private $html = '';//操作采集网页内容的对象
-    private $collectTime = '';//采集时间
     private $message = '';//错误或者正确信息
     private $insertNum = 0;//插入数据库次数
 
@@ -18,7 +17,7 @@ class bibiqi extends baseCollect{
      * 获取要采集的信息
      */
     public function getData(){
-        for($i=1; $i<546; $i++){
+        for($i=7; $i<546; $i++){
             if($i == 1){
                 $this->pages($this->url);
             } else {
@@ -31,7 +30,7 @@ class bibiqi extends baseCollect{
     public function pages($url){
         $this->html = file_get_html($url);
         if(!$this->html) {
-           return '';
+           return;
         } else {
             $bd = $this->html->find('ul.list',0);
             foreach ($bd->find('li') as $key=>$val) {
@@ -56,7 +55,7 @@ class bibiqi extends baseCollect{
         $href = strpos($href,'http') !== false ? $href : 'http://www.bibiqi.com'.$href;
         $html = file_get_html($href);
         if(!$html) {
-            return '';
+            return;
         }
         //播放地址
         $xiguaObj = $html->find('section.xigua',0);
