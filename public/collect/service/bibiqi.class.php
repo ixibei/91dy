@@ -17,7 +17,7 @@ class bibiqi extends baseCollect{
      * 获取要采集的信息
      */
     public function getData(){
-        for($i=7; $i<546; $i++){
+        for($i = 6; $i<546; $i++){
             if($i == 1){
                 $this->pages($this->url);
             } else {
@@ -37,6 +37,7 @@ class bibiqi extends baseCollect{
                 $aObj = $val->find('a.img_wrap',0);
                 $href = $aObj->href;
                 $data = $this->getDetail($href);
+                if(!$data) continue;
                 $this->insertMysql($data);
                 $this->insertNum++;
                 if($this->insertNum%100 == 0){
@@ -59,6 +60,8 @@ class bibiqi extends baseCollect{
         }
         //播放地址
         $xiguaObj = $html->find('section.xigua',0);
+        if(!$xiguaObj) return false;
+
         $divObj = $xiguaObj->find('div.mlist',0);
         $urlObj = $divObj->find('a',0);
         $url = $urlObj->href;
@@ -141,11 +144,16 @@ class bibiqi extends baseCollect{
         }
         return $data['id'];
     }
+
     protected function insertMysql($data){
+        $md5 = md5($data['url']);
+        $sql = "select id from m_movie where md5='{$md5}'";
+        $data = $this->db->get_one($sql);
+        if($data['id']) return;
+
         $field = 'img,name,content,intro,country_id,type,url,release_time,add_time,status,score,director_id,md5';
         $intro = mb_substr(strip_tags($data['content']),0,120,'utf-8');
         $addTime = $_SERVER['REQUEST_TIME'];
-        $md5 = md5($data['url']);
         $val = "'{$data['img']}','{$data['name']}','{$data['content']}','{$intro}','{$data['country_id']}','1',";
         $val .= "'{$data['url']}','{$data['release_time']}','$addTime','1','{$data['score']}','{$data['director_id']}','{$md5}'";
         $sql = "insert into m_movie ($field) values($val)";

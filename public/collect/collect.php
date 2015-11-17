@@ -5,7 +5,7 @@ require 'mysql.class.php';
 class collect{
     public function __construct() {
         header('content-type:text/html;charset=utf8');
-        error_reporting(0);
+        error_reporting(E_ALL);
         set_time_limit(0);
         date_default_timezone_set('Asia/chongqing');
         spl_autoload_register(array('collect', 'loadClass'));
